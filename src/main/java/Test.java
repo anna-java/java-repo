@@ -1,6 +1,5 @@
 package homework;
 
-
 public class Test {
 
     static String line = "_________________________________________\n";
@@ -39,12 +38,10 @@ public class Test {
     public static void main(String[] args) {
 
 
-        //TC#1
-        printTaskNum();
+        printTaskNum(); //1
         System.out.println("N/A");
 
 
-        //TC#2
         double a = 7, b = 2, c = 4;
         double expectedResult = 10.0;
 
@@ -52,9 +49,9 @@ public class Test {
 
         verifyEquals2(expectedResult, actualResult);
 
-        printTaskNum();
-        System.out.println(verifyEquals2(expectedResult, actualResult));
 
+        printTaskNum(); //2
+        System.out.println(verifyEquals2(expectedResult, actualResult));
 
     }
 }
