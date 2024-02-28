@@ -2,7 +2,7 @@ package homework;
 
 public class Test {
 
-    static String line = "_________________________________________\n";
+    static String line = "______________________\n";
     static String text = "TC#";
     public static int taskNum = 1;
     static String line2 = "\t -- \t";
@@ -37,10 +37,8 @@ public class Test {
 
     public static void main(String[] args) {
 
-
         printTaskNum(); //1
         System.out.println("N/A");
-
 
         double a = 7, b = 2, c = 4;
         double expectedResult = 10.0;

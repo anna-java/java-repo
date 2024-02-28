@@ -1,4 +1,4 @@
-package weather;
+package lessons;
 
 public class USweather {
 
@@ -10,8 +10,8 @@ public class USweather {
         String city2 = "Brooklyn, NY";
         int temp2 = 75;
 
-        System.out.println("The weather in " + city1 + " today is " + temp1 + "F");
-        System.out.println("The weather in " + city2 + " tomorrow will be " + temp2 + "F");
+        System.out.println("The weather in " + city1 + " is " + temp1 + "F" + " today");
+        System.out.println("The weather in " + city2 + " will be " + temp2 + "F" + " tomorrow");
 
     }
 }
