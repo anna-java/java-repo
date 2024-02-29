@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Teacher">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="update Person class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lessons/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lessons/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +52,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/anna/IdeaProjects/Java"
+    "last_opened_file_path": "/home/anna/IdeaProjects/Java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -140,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709168030169</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update Person class">
+      <option name="closed" value="true" />
+      <created>1709168952931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709168952931</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +168,7 @@
     <MESSAGE value="Update USweather and Test" />
     <MESSAGE value="Create Homework and Lessons packages" />
     <MESSAGE value="Update Teacher" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Teacher" />
+    <MESSAGE value="update Person class" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Person class" />
   </component>
 </project>
