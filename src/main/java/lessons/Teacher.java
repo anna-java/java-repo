@@ -1,14 +1,14 @@
-package school;
+package lessons;
 
 public class Teacher extends Person {
 
     public static void main(String[] args) {
 
         System.out.println("************************************ \n"
-                + "\tFirst name: \tIvan \n"
-                + "\tMiddle name: \tPetrovich \n"
-                + "\tLast name: \t\tSerebriakov \n"
-                + "\tAge: \t\t\t55 y.o. \n"
+                + "\tFirst name: \tRyan \n"
+                + "\tMiddle name: \tThomas \n"
+                + "\tLast name: \t\tGosling\n"
+                + "\tAge: \t\t\t43 y.o. \n"
                 + "************************************");
 
     }

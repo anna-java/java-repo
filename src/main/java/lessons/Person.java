@@ -1,4 +1,4 @@
-package school;
+package lessons;
 
 public class Person {
 

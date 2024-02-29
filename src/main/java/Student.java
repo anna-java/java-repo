@@ -1,5 +1,7 @@
 package school;
 
+import lessons.Person;
+
 public class Student extends Person {
 
     public static void main(String[] args) {
