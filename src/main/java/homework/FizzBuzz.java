@@ -1,3 +1,5 @@
+//FizzBuzz algorithm
+
 package homework;
 
 public class FizzBuzz {
@@ -20,10 +22,6 @@ public class FizzBuzz {
     public static void main(String[] args) {
 
         printFizzBuzz(150);
+
     }
-
-
-
-
-
 }
