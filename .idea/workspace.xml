@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Create Homework and Lessons packages">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Teacher">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lessons/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lessons/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     "Application.HW7.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Person.executor": "Run",
     "Application.Teacher.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.USweather.executor": "Run",
@@ -60,6 +63,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-76dd8dae" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
       </set>
     </attachedChunks>
   </component>
@@ -128,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709147910354</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update Teacher">
+      <option name="closed" value="true" />
+      <created>1709168030169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709168030169</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +160,7 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="Update USweather and Test" />
     <MESSAGE value="Create Homework and Lessons packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Homework and Lessons packages" />
+    <MESSAGE value="Update Teacher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Teacher" />
   </component>
 </project>
