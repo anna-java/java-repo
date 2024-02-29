@@ -1,3 +1,5 @@
+//To create a teacher's card
+
 package lessons;
 
 public class Teacher extends Person {

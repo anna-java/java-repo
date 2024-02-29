@@ -1,3 +1,5 @@
+//To print out weather in two different locations
+
 package lessons;
 
 public class USweather {
