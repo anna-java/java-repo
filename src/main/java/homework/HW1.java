@@ -1,3 +1,5 @@
+//To practice int and String declarations
+
 package homework;
 
 public class HW1 {

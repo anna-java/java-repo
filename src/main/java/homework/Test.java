@@ -16,6 +16,7 @@ public class Test {
 
     //Method 1
     public static String comparison(int a, int b) {
+
         if (a >= b) {
             return "Pass";
         } return "Fail";
@@ -24,6 +25,7 @@ public class Test {
 
     //Method 2
     public static double calculation(double a, double b, double c) {
+
         if (a * b - c > 0) {
             return a * b - c;
         } return 0;
@@ -31,6 +33,7 @@ public class Test {
 
 
     public static String verifyEquals2(double expectedResult, double actualResult) {
+
         if (expectedResult == actualResult) {
             return "Pass";
         } return "False";

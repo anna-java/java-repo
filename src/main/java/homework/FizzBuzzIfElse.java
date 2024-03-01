@@ -1,8 +1,8 @@
-//FizzBuzz algorithm
+//FizzBuzz written with If else
 
 package homework;
 
-public class FizzBuzz {
+public class FizzBuzzIfElse {
     public static void printFizzBuzz(int n) {
 
         for (int i = 1; i <= n; i++) {
