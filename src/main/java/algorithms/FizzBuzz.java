@@ -12,14 +12,14 @@ public class FizzBuzz {
             int number = start;
 
             for (int i = 0; i < array.length && number <= end; i++) {
-                if (start % 15 == 0) {
+                if (number % 15 == 0) {
                     array[i] = "FizzBuzz";
-                } else if (start % 3 == 0) {
+                } else if (number % 3 == 0) {
                     array[i] = "Fizz";
-                } else if (start % 5 == 0) {
+                } else if (number % 5 == 0) {
                     array[i] = "Buzz";
                 } else {
-                    array[i] = String.valueOf(start);
+                    array[i] = String.valueOf(number);
                 }
                 number++;
             }
