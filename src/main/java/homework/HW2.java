@@ -197,13 +197,16 @@ public class HW2 {
 
         System.out.println("Task " + ++number + ":"); //19 (part 3) throws exception, to use a reciprocal of the fraction
 
-//        int d = 4;
-//        int result4 = (5 * x + 7 * y) / (8 * x + 10 * y);
-//        int result5 = (3 * x - y) / (x + y);
-//        int result6 = result4 / result5;
-//        int result7 = a + b + c / d + (a + b) / (c + d) + a * b;
-//
-//        System.out.println(result6 / result7);
+        /*
+
+        int d = 4;
+        int result4 = (5 * x + 7 * y) / (8 * x + 10 * y);
+        int result5 = (3 * x - y) / (x + y);
+        int result6 = result4 / result5;
+        int result7 = a + b + c / d + (a + b) / (c + d) + a * b;
+        System.out.println(result6 / result7);
+
+         */
         System.out.println("----------");
 
 
@@ -213,8 +216,8 @@ public class HW2 {
         int F = (C * 9 / 5) + 32;
         int K = C + 273;
 
-        System.out.println(C + " degrees Celsius is equal to " + F + " Fahrenheit");
-        System.out.println(C + " degrees Celsius is equal to " + K + " Kelvin");
+        System.out.println(C + " degrees Celsius is equal to " + F + " degrees Fahrenheit");
+        System.out.println(C + " degrees Celsius is equal to " + K + " degrees Kelvin");
         System.out.println("----------");
 
     }

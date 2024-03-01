@@ -28,8 +28,4 @@ public class FizzBuzz {
         return new String[0];
     }
 
-
-    public static void main(String[] args) {
-
-    }
 }
