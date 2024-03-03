@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="To update class HW2">
-      <change afterPath="$PROJECT_DIR$/.attach_pid5018" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="To write FizzBuzz algorithm and test it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
     "Application.FizzBuzzNew.executor": "Run",
     "Application.HW1.executor": "Run",
     "Application.HW2.executor": "Run",
+    "Application.HW3.executor": "Run",
     "Application.HW7.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.Main.executor": "Run",
@@ -80,7 +80,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FizzBuzzTest.testStartGreaterThanEnd_Negative">
+  <component name="RunManager">
     <configuration name="FizzBuzzTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <option name="PACKAGE_NAME" value="" />
@@ -280,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709325790380</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="To write FizzBuzz algorithm and test it">
+      <option name="closed" value="true" />
+      <created>1709327850519</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709327850519</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +315,8 @@
     <MESSAGE value="Update homework package" />
     <MESSAGE value="To create algorithms package" />
     <MESSAGE value="To update class HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="To update class HW2" />
+    <MESSAGE value="To write FizzBuzz algorithm and test it" />
+    <option name="LAST_COMMIT_MESSAGE" value="To write FizzBuzz algorithm and test it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
