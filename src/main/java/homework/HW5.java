@@ -358,6 +358,7 @@ public class HW5 {
               return "The average value = " + averageValue + ", the median = " + median;
           }
 
+
     public static String verifyEquals15(String expectedResult15, String actualResult15) {
 
         if (expectedResult15.equals(actualResult15)) {
@@ -560,9 +561,9 @@ public class HW5 {
         printTCNumber();
         printTestResult(verifyEquals11(expectedResult11, actualResult11));
 
-        /*debugging
+        /* debugging
         double centsLeft = doubleNumber % Math.floor(doubleNumber);
-        System.out.println((int) Math.floor(doubleNumber) + " dollars " + (int) (centsLeft * 100) + " cent(s)");*/
+        System.out.println((int) Math.floor(doubleNumber) + " dollars " + (int) (centsLeft * 100) + " cent(s)"); */
 
 
         //TC 12
@@ -609,7 +610,5 @@ public class HW5 {
         printLetter();
         printTestResult(verifyEquals15(expectedResult15, actualResult15));
 
-
     }
-
 }

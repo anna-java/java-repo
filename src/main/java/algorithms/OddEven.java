@@ -8,24 +8,23 @@ Test Data:
 
 package algorithms;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class OddEven {
 
     public String oddEven(int num) {
 
-        System.out.println("Enter a number: ");
-
+        /*System.out.println("Enter a number: ");
         Scanner input = new Scanner(System.in);
-        num = input.nextInt();
+        num = input.nextInt(); */
 
         if (num % 2 == 0) {
             return "Even";
         } else {
             return "Odd";
         }
-    }
 
+    }
 }
 
 
