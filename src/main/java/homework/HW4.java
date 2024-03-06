@@ -22,10 +22,12 @@ public class HW4 {
         letter++;
     }
 
+
     public static void convertTemp(double celsius) {
         System.out.println("C = " + celsius);
         System.out.println("F = " + (celsius * 9 / 5 + 32));
     }
+
 
     static int k, l, m;
 
@@ -40,9 +42,11 @@ public class HW4 {
         }
     }
 
+
     public static void speedAverage(double time, double distance) {
         System.out.println((Math.round(distance / time)) + " mph");
     }
+
 
     public static void applesStudents(int apples, int students) {
         if (apples == 42 && students == 42) {
@@ -59,6 +63,7 @@ public class HW4 {
                     + " яблок, и " + apples + " яблоко останется учителю.");
         }
     }
+
 
     public static void main(String[] args) {
 
@@ -321,9 +326,6 @@ public class HW4 {
         } else {
             System.out.println("Out of short number's scope");
         }
-
-
-
 
     }
 }

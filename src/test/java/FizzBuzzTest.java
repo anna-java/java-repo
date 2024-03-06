@@ -83,5 +83,4 @@ public class FizzBuzzTest {
         Assert.assertEquals(actualResult, expectedResult);
 
     }
-
 }
