@@ -65,5 +65,4 @@ public class OddIndicesTest {
         Assert.assertEquals(actualResult, expectedResult);
 
     }
-
 }
