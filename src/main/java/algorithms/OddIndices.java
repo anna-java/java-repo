@@ -9,15 +9,21 @@ package algorithms;
 
 public class OddIndices {
 
-    public int oddIndices(int[] array) {
+    public int[] oddIndices(int[] array) {
 
-        array = new int[]{-45, 590, 234, 985, 12, 68};
+        if (array != null && array.length > 0) {
 
-        for (int i = 0; i < array.length; i++) {
-            if (i % 2 != 0) {
-                return array[i];
-            }
-        } return 0;
+            int count = 0;
+            int[] newArray = new int[array.length / 2];
+
+            for (int i = 1; i < array.length; i += 2) {
+                newArray[count] = array[i];
+
+                count++;
+        }
+            return newArray;
+        }
+        return new int[0];
 
     }
 }
