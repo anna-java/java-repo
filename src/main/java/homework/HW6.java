@@ -587,9 +587,5 @@ public class HW6 {
 
         method24("Jan", 1, 11);
 
-
-
-
-
     }
 }

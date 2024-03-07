@@ -26,5 +26,6 @@ public class FizzBuzz {
             return array;
         }
         return new String[0];
+
     }
 }
