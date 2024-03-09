@@ -62,6 +62,7 @@ public class HW7 {
         return returnMonth;
     }
 
+
     public static String returnDayOfTheWeek(int day) {
         String returnDayOfTheWeek;
         switch (day) {
@@ -92,6 +93,7 @@ public class HW7 {
         }
         return returnDayOfTheWeek;
     }
+
 
     //Need to add the code for #5 test scenario
     public static void returnNumLine(int start, int end, int step) {
@@ -417,9 +419,6 @@ public class HW7 {
                     }
                 }
             }
-
-
-
 
         }
     }
