@@ -7,11 +7,13 @@ Expected Result =  {590, 985, 68}
 
 package algorithms;
 
+import project_helpers.Helpers;
+
 public class OddIndices {
 
     public int[] oddIndices(int[] array) {
 
-        if (array != null && array.length > 0) {
+        if (Helpers.checkIfArrayIsEmpty(array)) {
 
             int count = 0;
             int[] newArray = new int[array.length / 2];
