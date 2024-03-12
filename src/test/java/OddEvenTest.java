@@ -13,7 +13,6 @@ public class OddEvenTest {
         String actualResult = new OddEven().oddEven(num);
 
         Assert.assertEquals(actualResult, expectedResult);
-
     }
 
 
@@ -26,7 +25,6 @@ public void testNumOddOrEven_Zero() {
     String actualResult = new OddEven().oddEven(num);
 
     Assert.assertEquals(actualResult, expectedResult);
-
 }
 
 

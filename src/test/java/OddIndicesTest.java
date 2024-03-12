@@ -3,9 +3,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-@Test
 public class OddIndicesTest {
 
+    @Test
     public void testOddIndices_HappyPath() {
 
         int[] array = {-45, 590, 234, 985, 12, 68};
@@ -14,10 +14,10 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(array);
 
         Assert.assertEquals(actualResult, expectedResult);
-
     }
 
 
+    @Test
     public void testOddIndices_ArrayOfTwo() {
 
         int[] array = {-45, 590};
@@ -26,10 +26,10 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(array);
 
         Assert.assertEquals(actualResult, expectedResult);
-
     }
 
 
+    @Test
     //Negative
     public void testOddIndices_ArrayOfOne() {
 
@@ -39,11 +39,12 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(array);
 
         Assert.assertEquals(actualResult, expectedResult);
-
     }
 
 
     /*
+    @Test
+
     public void testOddIndices_Null() {
 
         int[] array = null;
@@ -52,11 +53,11 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(array);
 
         Assert.assertEquals(actualResult, expectedResult);
-
     }
      */
 
 
+    @Test
     public void testOddIndices_Empty() {
 
         int[] array = {};

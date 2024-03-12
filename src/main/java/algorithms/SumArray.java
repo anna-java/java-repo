@@ -15,9 +15,8 @@ import project_helpers.Helpers;
 
 public class SumArray {
 
-    public int SumArray(int[] array) {
+    public int sumArray(int[] array) {
 
-        int[] array = {};
         int sum = 0;
 
         if (Helpers.checkIfArrayIsEmpty(array)) {
