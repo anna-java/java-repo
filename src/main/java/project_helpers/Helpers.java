@@ -1,3 +1,5 @@
+//Methods used across various algorithms
+
 package project_helpers;
 
 public class Helpers {

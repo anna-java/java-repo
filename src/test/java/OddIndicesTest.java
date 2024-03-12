@@ -65,6 +65,5 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(array);
 
         Assert.assertEquals(actualResult, expectedResult);
-
     }
 }

@@ -22,6 +22,5 @@ public class FizzBuzzIfElse {
     public static void main(String[] args) {
 
         printFizzBuzz(150);
-
     }
 }

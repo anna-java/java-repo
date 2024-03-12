@@ -53,6 +53,5 @@ public class HW1 {
         int t = s;
 
         String myNameInSlack = "Anna B";
-
     }
 }

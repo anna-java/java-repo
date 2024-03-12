@@ -1,5 +1,5 @@
 /*
-Part 2
+HW1 Part 2
 ___________________________________________________
 
 11. В проекте JavaForBeginners05, который мы создали на уроке, открыть класс Teacher
@@ -24,6 +24,5 @@ public class Teacher extends Person {
                 + "\tLast name: \t\tGosling\n"
                 + "\tAge: \t\t\t43 y.o. \n"
                 + "************************************");
-
     }
 }
