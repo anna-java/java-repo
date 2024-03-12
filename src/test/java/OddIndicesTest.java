@@ -18,7 +18,7 @@ public class OddIndicesTest {
 
 
     @Test
-    public void testOddIndices_ArrayOfTwo() {
+    public void testOddIndices_ArrayOfTwo_HappyPath() {
 
         int[] array = {-45, 590};
         int[] expectedResult = {590};
@@ -31,7 +31,7 @@ public class OddIndicesTest {
 
     @Test
     //Negative
-    public void testOddIndices_ArrayOfOne() {
+    public void testOddIndices_ArrayOfOne_HappyPath() {
 
         int[] array = {-45};
         int[] expectedResult = {};
@@ -43,9 +43,10 @@ public class OddIndicesTest {
 
 
     /*
-    @Test
+    Cannot read the array length because "array" is null
 
-    public void testOddIndices_Null() {
+    @Test
+    public void testOddIndices_Null_Negative() {
 
         int[] array = null;
         int[] expectedResult = {};
@@ -58,7 +59,7 @@ public class OddIndicesTest {
 
 
     @Test
-    public void testOddIndices_Empty() {
+    public void testOddIndices_EmptyArray_Negative() {
 
         int[] array = {};
         int[] expectedResult = {};
