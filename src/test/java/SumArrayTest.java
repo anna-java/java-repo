@@ -31,11 +31,27 @@ public class SumArrayTest {
     @Test
     public void testSumArray_EmptyArray_Negative() {
 
-        int[] array = {};
+        int[] array = {}; // or int[] array = new int[0];
         int expectedResult = 0;
 
         int actualResult = new SumArray().sumArray(array);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    /*
+    Cannot read the array length because "array" is null
+
+    @Test
+    public void testSumArray_Null_Negative() {
+
+        int[] array = null;
+        int expectedResult = 0;
+
+        int actualResult = new SumArray().sumArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+     */
 }
