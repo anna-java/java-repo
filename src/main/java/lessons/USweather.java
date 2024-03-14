@@ -1,4 +1,13 @@
-//To print out weather in two different locations
+/*
+HW1 Part 3
+___________________________________________________
+ 30. В проекте JavaForBeginners05 создайте пакет weather. Затем создайте необходимый класс, переменные, и выведите на печать
+- текущую погоду
+- погоду на завтра
+в любом городе.
+(Желательно использовать сайт https://openweathermap.org/ для поиска данных)
+ */
+
 
 package lessons;
 
@@ -14,6 +23,5 @@ public class USweather {
 
         System.out.println("The weather in " + city1 + " is " + temp1 + "F" + " today");
         System.out.println("The weather in " + city2 + " will be " + temp2 + "F" + " tomorrow");
-
     }
 }

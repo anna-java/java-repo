@@ -1,4 +1,4 @@
-//To verify my test's outcome
+//To verify one of my test's outcome
 
 package homework;
 
@@ -55,6 +55,5 @@ public class Test {
 
         printTaskNum(); //2
         System.out.println(verifyEquals2(expectedResult, actualResult));
-
     }
 }
