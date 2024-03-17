@@ -1,8 +1,8 @@
-import algorithms.BiggerValue;
+import algorithms.GreaterValue;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BiggerValueTest {
+public class GreaterValueTest {
 
     @Test
     public void aGreaterThanB_HappyPath() {
@@ -11,7 +11,7 @@ public class BiggerValueTest {
         int b = 10;
         int expectedResult = 18;
 
-        int actualResult = new BiggerValue().biggerValue(a, b);
+        int actualResult = new GreaterValue().biggerValue(a, b);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
@@ -24,7 +24,7 @@ public class BiggerValueTest {
         int b = 57;
         int expectedResult = 57;
 
-        int actualResult = new BiggerValue().biggerValue(a, b);
+        int actualResult = new GreaterValue().biggerValue(a, b);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
@@ -37,8 +37,25 @@ public class BiggerValueTest {
         int b = 35;
         int expectedResult = 0;
 
-        int actualResult = new BiggerValue().biggerValue(a, b);
+        int actualResult = new GreaterValue().biggerValue(a, b);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    /*
+    variable a might not have been initialized
+
+    @Test
+    public void oneNumNotDefined() {
+
+        int a;
+        int b = 63;
+        int expectedResult = 0;
+
+        int actualResult = new GreaterValue().biggerValue(a, b);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+     */
 }
