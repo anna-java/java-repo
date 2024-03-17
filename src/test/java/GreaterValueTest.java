@@ -44,7 +44,7 @@ public class GreaterValueTest {
 
 
     /*
-    variable might not have been initialized
+    Variable might not have been initialized
 
     @Test
     public void oneNumNotDefined() {
