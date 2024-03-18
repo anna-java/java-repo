@@ -10,7 +10,7 @@ package algorithms;
 
 public class GreaterValue {
 
-    public int biggerValue(int a, int b) {
+    public int greaterValue(int a, int b) {
 
         if (a != b) {
             if (a > b) {

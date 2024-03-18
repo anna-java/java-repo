@@ -9,17 +9,12 @@ package algorithms;
 
 public class IsPositiveNumber {
 
-    public boolean isPositiveNumber() {
+    public boolean isPositiveNumber(int num) {
 
-        int num = 1;
-
-        if (num != 0) {
-            if (num > 0) {
+        if (num > 0) {
                 return true;
             } else {
                 return false;
             }
-        }
-        return false;
     }
 }

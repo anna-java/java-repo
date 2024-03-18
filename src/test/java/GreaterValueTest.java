@@ -11,7 +11,7 @@ public class GreaterValueTest {
         int b = 10;
         int expectedResult = 18;
 
-        int actualResult = new GreaterValue().biggerValue(a, b);
+        int actualResult = new GreaterValue().greaterValue(a, b);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
@@ -24,7 +24,7 @@ public class GreaterValueTest {
         int b = 57;
         int expectedResult = 57;
 
-        int actualResult = new GreaterValue().biggerValue(a, b);
+        int actualResult = new GreaterValue().greaterValue(a, b);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
@@ -37,7 +37,7 @@ public class GreaterValueTest {
         int b = 35;
         int expectedResult = 0;
 
-        int actualResult = new GreaterValue().biggerValue(a, b);
+        int actualResult = new GreaterValue().greaterValue(a, b);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
