@@ -6,6 +6,7 @@
 Например, createIntArray(1, 2, 3, 4, 5) -> {1, 2, 3, 4, 5}
  */
 
+
 package algorithms;
 
 public class CreateArray {
