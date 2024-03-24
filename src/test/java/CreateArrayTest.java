@@ -25,4 +25,16 @@ public class CreateArrayTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    @Test
+    public void createStringArray() {
+
+        String word1 = "It", word2 = "was", word3 = "an", word4 = "apple", word5 = "pie";
+        String[] expectedResult = {"It", "was", "an", "apple", "pie"};
+
+        String[] actualResult = new CreateArray().createStringArray(word1, word2, word3, word4, word5);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
