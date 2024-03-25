@@ -27,9 +27,16 @@ public class ManipulationsWithArrays {
 
     public int[] multiplyArrayByNumber(int[] array, int multiplier) {
 
-        for (int i = 0; i < array.length; i++) {
-            return new int[]{array[i] * multiplier};
+        int[] multipliedArray = new int[array.length];
+
+        if (array.length == 0 || array == null) {
+            return new int[0];
+        } else {
+            for (int i = 0; i < array.length; i++) {
+                int multipliedIndex = array[i] * multiplier;
+                multipliedArray[i] = multipliedIndex;
+            }
         }
-        return new int[0];
+        return multipliedArray;
     }
 }
