@@ -37,4 +37,16 @@ public class CreateArrayTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    @Test
+    public void createArrayFromTextTest() {
+
+        String sentence = "It was an apple pie";
+        String[] expectedResult = {"It", "was", "an", "apple", "pie"};
+
+        String[] actualResult = new CreateArray().createArrayFromText(sentence);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }

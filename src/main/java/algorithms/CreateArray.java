@@ -37,4 +37,10 @@ public class CreateArray {
 
         return new String[]{word1, word2, word3, word4, word5};
     }
+
+
+    public String[] createArrayFromText(String sentence) {
+
+        return sentence.split(" ");
+    }
 }
