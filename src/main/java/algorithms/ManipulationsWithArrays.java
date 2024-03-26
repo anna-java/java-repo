@@ -32,7 +32,6 @@ public class ManipulationsWithArrays {
         } else if (array.length == 0) {
             return new int[0];
         } else {
-
             int[] multipliedArray = new int[array.length];
 
             for (int i = 0; i < array.length; i++) {
@@ -40,6 +39,23 @@ public class ManipulationsWithArrays {
                 multipliedArray[i] = multipliedIndex;
             }
             return multipliedArray;
+        }
+    }
+
+
+    public double[] toDoubleArray(int[] array) {
+
+        if (array == null) {
+            return null;
+        } else if (array.length == 0) {
+            return new double[0];
+        } else {
+            double[] doubleArray = new double[array.length];
+
+            for (int i = 0; i < array.length; i++) {
+                doubleArray[i] = array[i];
+            }
+            return doubleArray;
         }
     }
 }

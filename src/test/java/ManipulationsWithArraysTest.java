@@ -16,6 +16,7 @@ public class ManipulationsWithArraysTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+
     @Test
     public void multiplyArrayByNumber_Null() {
 
@@ -24,6 +25,18 @@ public class ManipulationsWithArraysTest {
         int[] expectedResult = {};
 
         int[] actualResult = new ManipulationsWithArrays().multiplyArrayByNumber(array, multiplier);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void doubleArray_HappyPath() {
+
+        int[] array = {1, 2, 3, 4, 5};
+        double[] expectedResult = {1.0, 2.0, 3.0, 4.0, 5.0};
+
+        double[] actualResult = new ManipulationsWithArrays().toDoubleArray(array);
 
         Assert.assertEquals(actualResult, expectedResult);
     }
