@@ -52,4 +52,28 @@ public class ManipulationsWithArraysTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    @Test
+    public void intArray_HappyPath() {
+
+        double[] array = {1.1, 2.5, 3.7, 4.0, 5.5};
+        int[] expectedResult = {1, 2, 3, 4, 5};
+
+        int[] actualResult = new ManipulationsWithArrays().toIntArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void intArray_Null() {
+
+        double[] array = null;
+        int[] expectedResult = null;
+
+        int[] actualResult = new ManipulationsWithArrays().toIntArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
