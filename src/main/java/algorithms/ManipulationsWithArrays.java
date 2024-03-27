@@ -58,4 +58,21 @@ public class ManipulationsWithArrays {
             return doubleArray;
         }
     }
+
+
+    public int[] toIntArray(double[] array) {
+
+        if (array == null) {
+            return null;
+        } else if (array.length == 0) {
+            return new int[0];
+        } else {
+            int[] intArray = new int[array.length];
+
+            for (int i = 0; i < array.length; i++) {
+                intArray[i] = (int) array[i];
+            }
+            return intArray;
+        }
+    }
 }
