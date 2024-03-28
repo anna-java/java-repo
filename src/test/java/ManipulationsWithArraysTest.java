@@ -76,4 +76,28 @@ public class ManipulationsWithArraysTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    @Test
+    public void stringArray_HappyPath() {
+
+        int[] array = {1, 2, 3, 4, 5};
+        String[] expectedResult = {"1", "2", "3", "4", "5"};
+
+        String[] actualResult = new ManipulationsWithArrays().toStringArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void stringArray_Null() {
+
+        int[] array = null;
+        String[] expectedResult = null;
+
+        String[] actualResult = new ManipulationsWithArrays().toStringArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
