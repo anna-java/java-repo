@@ -75,4 +75,21 @@ public class ManipulationsWithArrays {
             return intArray;
         }
     }
+
+
+    public String[] toStringArray(int[] array) {
+
+        if (array == null) {
+            return null;
+        } else if (array.length == 0) {
+            return new String[0];
+        } else {
+            String[] stringArray = new String[array.length];
+
+            for (int i = 0; i < array.length; i++) {
+                stringArray[i] = String.valueOf(array[i]);
+            }
+            return stringArray;
+        }
+    }
 }
