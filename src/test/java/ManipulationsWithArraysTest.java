@@ -100,4 +100,28 @@ public class ManipulationsWithArraysTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    @Test
+    public void stringArray2_HappyPath() {
+
+        double[] array = {1.1, 2.5, 3.7, 4.0, 5.5};
+        String[] expectedResult = {"1.1", "2.5", "3.7", "4.0", "5.5"};
+
+        String[] actualResult = new ManipulationsWithArrays().toStringArray2(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void stringArray2_Null() {
+
+        double[] array = null;
+        String[] expectedResult = null;
+
+        String[] actualResult = new ManipulationsWithArrays().toStringArray2(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
