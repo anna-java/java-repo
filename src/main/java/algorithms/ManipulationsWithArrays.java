@@ -92,4 +92,21 @@ public class ManipulationsWithArrays {
             return stringArray;
         }
     }
+
+
+    public String[] toStringArray2(double[] array) {
+
+        if (array == null) {
+            return null;
+        } else if (array.length == 0) {
+            return new String[0];
+        } else {
+            String[] stringArray2 = new String[array.length];
+
+            for (int i = 0; i < array.length; i++) {
+                stringArray2[i] = String.valueOf(array[i]);
+            }
+            return stringArray2;
+        }
+    }
 }
