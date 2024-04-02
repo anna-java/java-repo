@@ -1,3 +1,4 @@
+import algorithms.ManipulationsWithArrays;
 import algorithms.OddEvenValuesInArray;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,6 +16,7 @@ public class OddEvenValuesInArrayTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+
     @Test
     public void noEvenValuesInArray() {
 
@@ -26,6 +28,7 @@ public class OddEvenValuesInArrayTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+
     @Test
     public void nullArray() {
 
@@ -33,6 +36,42 @@ public class OddEvenValuesInArrayTest {
         int expectedResult = -1;
 
         int actualResult = new OddEvenValuesInArray().countEvenValuesInArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void oddValuesInArray_HappyPath() {
+
+        int[] array = {0, 3, 6, 10, 13, 17, 18};
+        int expectedResult = 3;
+
+        int actualResult = new OddEvenValuesInArray().countOddValuesInArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void noOddValuesInArray() {
+
+        int[] array = {0, 2, 4, 6, 8, 10};
+        int expectedResult = 0;
+
+        int actualResult = new OddEvenValuesInArray().countOddValuesInArray(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void nullArray2() {
+
+        int[] array = null;
+        int expectedResult = -1;
+
+        int actualResult = new OddEvenValuesInArray().countOddValuesInArray(array);
 
         Assert.assertEquals(actualResult, expectedResult);
     }

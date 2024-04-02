@@ -30,4 +30,25 @@ public class OddEvenValuesInArray {
         }
         return counter;
     }
+
+
+
+    public int countOddValuesInArray(int[] array) {
+
+        int counter = 0;
+
+        if (array == null || array.length == 0) {
+            return -1;
+        } else {
+
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] % 2 != 0) {
+                    counter++;
+                }
+            }
+        }
+        return counter;
+    }
 }
+
+
