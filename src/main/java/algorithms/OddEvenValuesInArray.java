@@ -16,7 +16,7 @@ public class OddEvenValuesInArray {
 
     public int countEvenValuesInArray(int[] array) {
 
-        int counter = 0;
+        int count = 0;
 
         if (array == null || array.length == 0) {
             return -1;
@@ -24,17 +24,17 @@ public class OddEvenValuesInArray {
 
             for (int i = 0; i < array.length; i++) {
                 if (array[i] % 2 == 0) {
-                    counter++;
+                    count++;
                 }
             }
         }
-        return counter;
+        return count;
     }
 
 
     public int countOddValuesInArray(int[] array) {
 
-        int counter = 0;
+        int count = 0;
 
         if (array == null || array.length == 0) {
             return -1;
@@ -42,11 +42,11 @@ public class OddEvenValuesInArray {
 
             for (int i = 0; i < array.length; i++) {
                 if (array[i] % 2 != 0) {
-                    counter++;
+                    count++;
                 }
             }
         }
-        return counter;
+        return count;
     }
 
 
