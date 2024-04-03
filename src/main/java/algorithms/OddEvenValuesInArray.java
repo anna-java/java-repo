@@ -32,7 +32,6 @@ public class OddEvenValuesInArray {
     }
 
 
-
     public int countOddValuesInArray(int[] array) {
 
         int counter = 0;
@@ -48,6 +47,24 @@ public class OddEvenValuesInArray {
             }
         }
         return counter;
+    }
+
+
+    public boolean areValuesGreaterThanNumber(int[]array, int number) {
+
+        if (array == null || array.length == 0) {
+            return false;
+        } else {
+
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] > number) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+        return false;
     }
 }
 

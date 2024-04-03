@@ -75,4 +75,18 @@ public class OddEvenValuesInArrayTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    @Test
+    public void allArrayValuesAreGreaterThanNumber_HappyPath() {
+
+        int[] array = {6, 7 , 8, 9, 10};
+        int number = 5;
+
+        boolean expectedResult = true;
+
+        boolean actualResult = new OddEvenValuesInArray().areValuesGreaterThanNumber(array, number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
