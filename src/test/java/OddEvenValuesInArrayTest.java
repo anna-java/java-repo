@@ -89,4 +89,46 @@ public class OddEvenValuesInArrayTest {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
+
+
+    @Test
+    public void allArrayValuesAreLesserThanNumber_HappyPath() {
+
+        int[] array = {1, 2, 3, 7, 8};
+        int number = 10;
+
+        boolean expectedResult = false;
+
+        boolean actualResult = new OddEvenValuesInArray().areValuesGreaterThanNumber(array, number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void boundaryArrayValues() {
+
+        int[] array = {7, 10, 15, 19};
+        int number = 7;
+
+        boolean expectedResult = false;
+
+        boolean actualResult = new OddEvenValuesInArray().areValuesGreaterThanNumber(array, number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void NullArray() {
+
+        int[] array = null;
+        int num = 10;
+
+        boolean expectedResult = false;
+
+        boolean actualResult = new OddEvenValuesInArray().areValuesGreaterThanNumber(array, num);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
