@@ -48,24 +48,6 @@ public class OddEvenValuesInArray {
         }
         return count;
     }
-
-
-    public boolean areValuesGreaterThanNumber(int[]array, int number) {
-
-        if (array == null || array.length == 0) {
-            return false;
-        } else {
-
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] > number) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-        }
-        return false;
-    }
 }
 
 

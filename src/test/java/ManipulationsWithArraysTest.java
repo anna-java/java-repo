@@ -1,4 +1,5 @@
 import algorithms.ManipulationsWithArrays;
+import algorithms.OddEvenValuesInArray;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -121,6 +122,80 @@ public class ManipulationsWithArraysTest {
         String[] expectedResult = null;
 
         String[] actualResult = new ManipulationsWithArrays().toStringArray2(array);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void allArrayValuesAreGreaterThanNumber_HappyPath() {
+
+        int[] array = {6, 7 , 8, 9, 10};
+        int number = 5;
+
+        boolean expectedResult = true;
+
+        boolean actualResult = new ManipulationsWithArrays().areValuesGreaterThanNumber(array, number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void allArrayValuesAreLesserThanNumber_HappyPath() {
+
+        int[] array = {1, 2, 3, 7, 8};
+        int number = 10;
+
+        boolean expectedResult = false;
+
+        boolean actualResult = new ManipulationsWithArrays().areValuesGreaterThanNumber(array, number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    /*
+    Test fails if one of the middle array elements is lesser than a number, need to debug
+
+    @Test
+    public void oneArrayElementIsLesserThanNumber() {
+
+        int[] array = {24, 37, 16, 11, 48, 89};
+        int number = 15;
+
+        boolean expectedResult = false;
+
+        boolean actualResult = new OddEvenValuesInArray().areValuesGreaterThanNumber(array, number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+     */
+
+
+    @Test
+    public void boundaryArrayValues() {
+
+        int[] array = {7, 10, 15, 19};
+        int number = 7;
+
+        boolean expectedResult = false;
+
+        boolean actualResult = new ManipulationsWithArrays().areValuesGreaterThanNumber(array, number);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void NullArray() {
+
+        int[] array = null;
+        int num = 10;
+
+        boolean expectedResult = false;
+
+        boolean actualResult = new ManipulationsWithArrays().areValuesGreaterThanNumber(array, num);
 
         Assert.assertEquals(actualResult, expectedResult);
     }

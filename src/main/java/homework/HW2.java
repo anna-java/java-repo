@@ -361,6 +361,5 @@ public class HW2 {
         System.out.println(C + " degrees Celsius is equal to " + F + " degrees Fahrenheit");
         System.out.println(C + " degrees Celsius is equal to " + K + " degrees Kelvin");
         System.out.println("----------");
-
     }
 }
