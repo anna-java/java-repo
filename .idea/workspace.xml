@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="To update class HW4">
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW3.java" afterDir="false" />
-    </list>
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="To update class HW3 with tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +84,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OddEven">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OddEven" />
       <module name="Java" />
@@ -304,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709686516948</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="To update class HW3 with tasks">
+      <option name="closed" value="true" />
+      <created>1712445600449</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712445600449</updated>
+    </task>
+    <task id="LOCAL-00019" summary="To update class HW3 with tasks">
+      <option name="closed" value="true" />
+      <created>1712445720080</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712445720080</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +348,8 @@
     <MESSAGE value="To write FizzBuzz algorithm and test it" />
     <MESSAGE value="To update class HW3" />
     <MESSAGE value="To update class HW4" />
-    <option name="LAST_COMMIT_MESSAGE" value="To update class HW4" />
+    <MESSAGE value="To update class HW3 with tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="To update class HW3 with tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
