@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="To update class HW4 with tasks for Part 1" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="To update class HW4 with tasks for Part 2 and Part 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW5.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712515800121</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="To update class HW4 with tasks for Part 2 and Part 3">
+      <option name="closed" value="true" />
+      <created>1712585181313</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712585181313</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +370,8 @@
     <MESSAGE value="To update class HW4" />
     <MESSAGE value="To update class HW3 with tasks" />
     <MESSAGE value="To update class HW4 with tasks for Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="To update class HW4 with tasks for Part 1" />
+    <MESSAGE value="To update class HW4 with tasks for Part 2 and Part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="To update class HW4 with tasks for Part 2 and Part 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -372,6 +385,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/OddEvenTest.java</url>
           <line>42</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homework/HW5.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java</url>
