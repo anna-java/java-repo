@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update class HW5 with tasks for th Part 1" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update class HW5 with tasks for th Part 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -342,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712768451148</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update class HW5 with tasks for th Part 2">
+      <option name="closed" value="true" />
+      <created>1712878684261</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712878684261</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +384,8 @@
     <MESSAGE value="To update class HW4 with tasks for Part 1" />
     <MESSAGE value="To update class HW4 with tasks for Part 2 and Part 3" />
     <MESSAGE value="Update class HW5 with tasks for th Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update class HW5 with tasks for th Part 1" />
+    <MESSAGE value="Update class HW5 with tasks for th Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update class HW5 with tasks for th Part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
