@@ -13,6 +13,29 @@ public class StringMethodsTest {
         String actualResult = new StringMethods().removeSpaces(text);
 
         Assert.assertEquals(actualResult, expectedResult);
+    }
 
+
+    @Test
+    public void StringWithoutExtraSpaces() {
+
+        String text = "Red Rover School";
+        String expectedResult = "No extra spaces found";
+
+        String actualResult = new StringMethods().removeSpaces(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void EmptyString() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().removeSpaces(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }
