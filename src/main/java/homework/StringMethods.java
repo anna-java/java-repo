@@ -22,11 +22,28 @@ Test Data:
 "Red Rover School" → “Пробелов не было”
 "" → “Строка пустая”
 
+2. Написать алгоритм removeAllAs().
+С помощью методов из видео1, написать алгоритм, который принимает на вход строку. Если строка валидная, то метод удаляет
+все буквы a из строки, если таковые имеются. Метод возвращает обработанную строку.
+Test Data:
+"    Red Rover School   " →  "Red Rover School"
+"panda   " → "pnd"
+"taramasalata" → "trmslt"
+
+3. Написать алгоритм removeAllZeros().
+С помощью методов из видео1,  написать алгоритм, который принимает на вход строку, состоящую из цифр. Если строка валидная, то метод удаляет все пробелы из строки, если таковые имеются. Метод возвращает обработанную строку, в которой нет нулей. Если в строке не было нулей, метод возвращает сообщение “This is a valid string”.
+Test Data:
+"3504209706040000 " →  "35429764"
+"0000000111" → "111"
+
+
+
  */
 
 
 package homework;
 
+//1
 public class StringMethods {
 
     public String removeSpaces(String text) {
@@ -41,4 +58,16 @@ public class StringMethods {
         }
             return "The string is empty";
     }
+
+
+    //2
+    public String removeAllAs(String text) {
+
+        if (text.isEmpty()) {
+            return "The string is empty";
+        }
+        String modifiedText = text.replace("a", "");
+        return modifiedText.trim();
+    }
+
 }
