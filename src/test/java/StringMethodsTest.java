@@ -77,5 +77,53 @@ public class StringMethodsTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+    @Test
+    public void EmptyString2() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().removeAllAs(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    //3
+    @Test
+    public void StringWithZerosAndSpaces() {
+
+        String text = "3504209706040000 ";
+        String expectedResult = "35429764";
+
+        String actualResult = new StringMethods().removeAllZeros(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void StringWithZerosNoSpaces() {
+
+        String text = "0000000111";
+        String expectedResult = "111";
+
+        String actualResult = new StringMethods().removeAllZeros(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void EmptyString3() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().removeAllZeros(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
 
 }
