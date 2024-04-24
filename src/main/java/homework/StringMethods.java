@@ -38,7 +38,12 @@ Test Data:
 "3504209706040000 " →  "35429764"
 "0000000111" → "111"
 
-
+4. Написать алгоритм removeAllSpaces.
+С помощью методов из видео1, написать алгоритм, который принимает на вход строку. Если строка валидная, то метод удаляет
+все пробелы из строки, если таковые имеются. Метод возвращает обработанную строку.
+Test Data:
+"    R e d     Ro ve    r Sc   h ool   " →  "RedRoverSchool"
+"p a     n   d a   " → "panda"
 
  */
 
@@ -85,6 +90,17 @@ public class StringMethods {
             } else {
                 return "This is a valid string";
             }
+        }
+    }
+
+
+    public String removeAllSpaces(String text) {
+
+        if (text.isEmpty()) {
+            return "The string is empty";
+        } else {
+            String modifiedText = text.replace(" ", "");
+            return modifiedText.trim();
         }
     }
 

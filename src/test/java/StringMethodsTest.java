@@ -126,4 +126,41 @@ public class StringMethodsTest {
     }
 
 
+    //4
+    @Test
+    public void StringWithSpaces() {
+
+        String text = "    R e d     Ro ve    r Sc   h ool   ";
+        String expectedResult = "RedRoverSchool";
+
+        String actualResult = new StringMethods().removeAllSpaces(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void StringWithSpaces2() {
+
+        String text = "p a     n   d a   ";
+        String expectedResult = "panda";
+
+        String actualResult = new StringMethods().removeAllSpaces(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void EmptyString4() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().removeAllSpaces(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }
