@@ -145,8 +145,7 @@ public class StringMethods {
 
                 if ((text.charAt(i) == someChar) || (text.charAt(i) == someChar2)) {
                     count++;
-                } else {
-                    count2 = text.length() - 1 - count;
+                    count2 = text.length() - count;
                 }
             }
             return String.valueOf(count).concat(", ").concat(String.valueOf(count2));
