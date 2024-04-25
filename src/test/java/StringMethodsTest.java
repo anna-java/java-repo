@@ -163,4 +163,17 @@ public class StringMethodsTest {
     }
 
 
+    //5
+    @Test
+    public void StringWithAs() {
+
+        String text = "Abracadabra";
+        String expectedResult = "5, 6";
+
+        String actualResult = new StringMethods().countAs(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }
