@@ -176,4 +176,40 @@ public class StringMethodsTest {
     }
 
 
+    @Test
+    public void StringWithoutAs() {
+
+        String text = "Homenum Revelio";
+        String expectedResult = "0, 15";
+
+        String actualResult = new StringMethods().countAs(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void StringWithAsAndSpaces() {
+
+        String text = "3 tarAmasAlatA";
+        String expectedResult = "6, 8";
+
+        String actualResult = new StringMethods().countAs(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void EmptyString5() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().countAs(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }
