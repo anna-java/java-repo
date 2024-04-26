@@ -212,4 +212,46 @@ public class StringMethodsTest {
     }
 
 
+    //6
+    @Test
+    public void ContainsWordJava() {
+
+        String text = "As of March 2022, Java 18 is the latest version, while Java 17, 11 and 8 are the current " +
+                "long-term support (LTS) versions. Oracle released the last zero-cost public update for the legacy " +
+                "version Java 8 LTS in January 2019 for commercial use, although it will otherwise still support Java 8 " +
+                "with public updates for personal use indefinitely. Other vendors have begun to offer zero-cost " +
+                "builds of OpenJDK 8 and 11 that are still receiving security and other upgrades.";
+        String expectedResult = String.valueOf(true);
+
+        String actualResult = new StringMethods().countJava(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void NoWordJava() {
+
+        String text = "99 little bugs in a code. 99 little bugs in a code. Take one down, and patch it around. " +
+                "235 critical bugs in the code.";
+        String expectedResult = String.valueOf(false);
+
+        String actualResult = new StringMethods().countJava(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void EmptyString6() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().countJava(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }
