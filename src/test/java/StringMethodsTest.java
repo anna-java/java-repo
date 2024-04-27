@@ -254,4 +254,29 @@ public class StringMethodsTest {
     }
 
 
+    //7
+    @Test
+    public void AddQuotes() {
+
+        String text = "Abracadabra";
+        String expectedResult = "\"Abracadabra\"";
+
+        String actualResult = new StringMethods().insertQuotes(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void EmptyString7() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().insertQuotes(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }

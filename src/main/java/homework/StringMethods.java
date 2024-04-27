@@ -67,6 +67,10 @@ begun to offer zero-cost builds of OpenJDK 8 and 11 that are still receiving sec
 Take one down, and patch it around.
 235 critical bugs in the code." → false
 
+7. Напишите метод insertQuotes(), который принимает слово и возвращает строку, в которой это слово “обернуто” в кавычки:
+Test Data:
+"Abracadabra" →  ""Abracadabra""
+
 
  */
 
@@ -166,7 +170,17 @@ public class StringMethods {
             }
             return String.valueOf(false);
         }
+    }
+
+
+    //7
+    public String insertQuotes(String text) {
+
+        if (text.isEmpty()) {
+            return "The string is empty";
         }
+        return "\"".concat(text).concat("\"");
+    }
 
 
 
