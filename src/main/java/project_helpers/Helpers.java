@@ -4,7 +4,7 @@ package project_helpers;
 
 public class Helpers {
 
-    // Methods to check whether an array  is empty (int, double, String)
+    //Methods to check whether an array is empty (int, double, String)
 
     public static boolean checkIfArrayIsEmpty(int[] array) {
 

@@ -279,4 +279,18 @@ public class StringMethodsTest {
     }
 
 
+    //8
+    @Test
+    public void insertQuotes2() {
+
+        String text = "Федор Достоевский писал";
+        String text2 = "Надо любить жизнь больше, чем смысл жизни.";
+        String expectedResult = "Федор Достоевский писал: \"Надо любить жизнь больше, чем смысл жизни.\"";
+
+        String actualResult = new StringMethods().insertQuotes2(text, text2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }

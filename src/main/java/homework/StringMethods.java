@@ -69,8 +69,17 @@ Take one down, and patch it around.
 
 7. Напишите метод insertQuotes(), который принимает слово и возвращает строку, в которой это слово “обернуто” в кавычки:
 Test Data:
-"Abracadabra" →  ""Abracadabra""
+"Abracadabra" → ""Abracadabra""
 
+8*. Напишите метод insertQuotes2(), который принимает на вход две строки, и добавляет знак :  после слова “писал”,
+и оборачивает в кавычки вторую строку
+(результат строится с помощью метода concat())
+Test Data:
+"Федор Достоевский писал", "Надо любить жизнь больше, чем смысл жизни." →
+"Федор Достоевский писал: "Надо любить жизнь больше, чем смысл жизни.""
+Задание со звездочкой:
+"Наполеон Бонапарт писал", "В моем словаре нет слова «невозможно»." →
+"Наполеон Бонапарт писал: "В моем словаре нет слова "невозможно".""
 
  */
 
@@ -86,7 +95,7 @@ public class StringMethods {
         if (!(text.isEmpty())) {
 
             if (text.length() != 16) {
-                return text.trim() + "; extra spaces are removed";
+                return text.trim().concat("; extra spaces are removed");
             } else {
                 return "No extra spaces found";
             }
@@ -180,6 +189,16 @@ public class StringMethods {
             return "The string is empty";
         }
         return "\"".concat(text).concat("\"");
+    }
+
+
+    //8
+    public String insertQuotes2(String text, String text2) {
+
+        if (text.isEmpty() || text2.isEmpty()) {
+            return "Either one or two strings are empty";
+        }
+        return text.concat(": ").concat("\"").concat(text2).concat("\"");
     }
 
 
