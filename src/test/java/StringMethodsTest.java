@@ -281,13 +281,52 @@ public class StringMethodsTest {
 
     //8
     @Test
-    public void insertQuotes2() {
+    public void addQuotesAdvanced() {
 
-        String text = "Федор Достоевский писал";
+        String text1 = "Федор Достоевский писал";
         String text2 = "Надо любить жизнь больше, чем смысл жизни.";
         String expectedResult = "Федор Достоевский писал: \"Надо любить жизнь больше, чем смысл жизни.\"";
 
-        String actualResult = new StringMethods().insertQuotes2(text, text2);
+        String actualResult = new StringMethods().insertQuotes2(text1, text2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void addQuotesAdvanced2() {
+
+        String text1 = "Наполеон Бонапарт писал";
+        String text2 = "В моем словаре нет слова «невозможно».";
+        String expectedResult = "Наполеон Бонапарт писал: \"В моем словаре нет слова \"невозможно\".\"";
+
+        String actualResult = new StringMethods().insertQuotes2(text1, text2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void OneStringIsEmpty() {
+
+        String text1 = "Test";
+        String text2 = "";
+        String expectedResult = "Either one or two strings are empty";
+
+        String actualResult = new StringMethods().insertQuotes2(text1, text2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void BothStringAreEmpty() {
+
+        String text1 = "";
+        String text2 = "";
+        String expectedResult = "Either one or two strings are empty";
+
+        String actualResult = new StringMethods().insertQuotes2(text1, text2);
 
         Assert.assertEquals(actualResult, expectedResult);
     }

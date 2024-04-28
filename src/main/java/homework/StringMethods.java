@@ -193,12 +193,17 @@ public class StringMethods {
 
 
     //8
-    public String insertQuotes2(String text, String text2) {
+    public String insertQuotes2(String text1, String text2) {
 
-        if (text.isEmpty() || text2.isEmpty()) {
+        if (text1.isEmpty() || text2.isEmpty()) {
             return "Either one or two strings are empty";
+        } else {
+            if (text2.contains("«") || text2.contains("»")) {
+                String modifedText2 = text2.replace('«', '"').replace('»', '"');
+                return text1.concat(": ").concat("\"").concat(modifedText2).concat("\"");
+            }
         }
-        return text.concat(": ").concat("\"").concat(text2).concat("\"");
+        return text1.concat(": ").concat("\"").concat(text2).concat("\"");
     }
 
 
