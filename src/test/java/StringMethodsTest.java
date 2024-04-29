@@ -332,4 +332,41 @@ public class StringMethodsTest {
     }
 
 
+    //9
+    @Test
+    public void testCityStartingWithLowercase() {
+
+        String city = "ташкент";
+        String expectedResult = "Ташкент";
+
+        String actualResult = new StringMethods().inputCity(city);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testCityEndingWithUppercase() {
+
+        String city = "ЧикаГО";
+        String expectedResult = "Чикаго";
+
+        String actualResult = new StringMethods().inputCity(city);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testEmptyString9() {
+
+        String city = "";
+        String expectedResult = "The city name is empty";
+
+        String actualResult = new StringMethods().inputCity(city);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }

@@ -204,11 +204,21 @@ public class StringMethods {
             return "Either one or two strings are empty";
         } else {
             if (text2.contains("«") || text2.contains("»")) {
-                String modifedText2 = text2.replace('«', '"').replace('»', '"');
-                return text1.concat(": ").concat("\"").concat(modifedText2).concat("\"");
+                String modifiedText2 = text2.replace('«', '"').replace('»', '"');
+                return text1.concat(": ").concat("\"").concat(modifiedText2).concat("\"");
             }
         }
         return text1.concat(": ").concat("\"").concat(text2).concat("\"");
+    }
+
+
+    //9
+    public String inputCity(String city) {
+
+        if (city.isEmpty()) {
+            return "The city name is empty";
+        }
+        return city.substring(0, 1).toUpperCase().concat(city.substring(1).toLowerCase());
     }
 
 
