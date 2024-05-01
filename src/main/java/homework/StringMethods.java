@@ -86,6 +86,15 @@ Test Data:
 "ташкент" → "Ташкент"
 "ЧикаГО" → "Чикаго"
 
+Видео3: https://www.youtube.com/watch?v=6_RDHZfygGo
+indexOf(), lastIndexOf()
+
+10. Напишите метод, который принимает на вход строку и букву-параметр, и возвращает все, что находится между первой
+и последней буквой-параметром:
+Test Data:
+"Abracadabra", "b" → "bracadab"
+"Whippersnapper", "p" → "ppersnapp"
+
  */
 
 
@@ -219,6 +228,22 @@ public class StringMethods {
             return "The city name is empty";
         }
         return city.substring(0, 1).toUpperCase().concat(city.substring(1).toLowerCase());
+    }
+
+
+    //10
+    public String printPartialText(String text, char letter) {
+
+        if (text.isEmpty()) {
+            return "The string is empty";
+        } else if (letter == ' ') {
+            return "The char is empty";
+        }
+        int startIndex = text.indexOf(letter);
+        int endIndex = text.lastIndexOf(letter);
+        String partialText = text.substring(startIndex, endIndex + 1);
+
+        return partialText;
     }
 
 

@@ -369,4 +369,57 @@ public class StringMethodsTest {
     }
 
 
+    //10
+    @Test
+    public void testIndexOf() {
+
+        String text = "Abracadabra";
+        char letter = 'b';
+        String expectedResult = "bracadab";
+
+        String actualResult = new StringMethods().printPartialText(text, letter);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testLastIndexOf() {
+
+        String text = "Whippersnapper";
+        char letter = 'p';
+        String expectedResult = "ppersnapp";
+
+        String actualResult = new StringMethods().printPartialText(text, letter);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testEmptyString10() {
+
+        String text = "";
+        char letter = 'a';
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().printPartialText(text, letter);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testEmptyChar() {
+
+        String text = "Abracadabra";
+        char letter = ' ';
+        String expectedResult = "The char is empty";
+
+        String actualResult = new StringMethods().printPartialText(text, letter);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 }
