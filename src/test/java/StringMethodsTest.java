@@ -422,4 +422,43 @@ public class StringMethodsTest {
     }
 
 
+    //11
+    @Test
+    public void testWhenFirstAndLastLettersAreTheSame() {
+
+        String word = "Abracadabra";
+        boolean expectedResult = true;
+
+        boolean actualResult = new StringMethods().compareFirstAndLastLetters(word);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    //11
+    @Test
+    public void testWhenFirstAndLastLettersAreDifferent() {
+
+        String word = "Whippersnapper";
+        boolean expectedResult = false;
+
+        boolean actualResult = new StringMethods().compareFirstAndLastLetters(word);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testEmptyString11() {
+
+        String word = "";
+        boolean expectedResult = false;
+
+        boolean actualResult = new StringMethods().compareFirstAndLastLetters(word);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+
 }

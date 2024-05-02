@@ -95,6 +95,13 @@ Test Data:
 "Abracadabra", "b" → "bracadab"
 "Whippersnapper", "p" → "ppersnapp"
 
+11. Напишите метод, который принимает на вход слово, и возвращает true, если слово начинается и заканчивается
+на одинаковую букву, и false иначе
+Test Data:
+"Abracadabra" → true
+"Whippersnapper" → false
+
+
  */
 
 
@@ -241,10 +248,25 @@ public class StringMethods {
         }
         int startIndex = text.indexOf(letter);
         int endIndex = text.lastIndexOf(letter);
-        String partialText = text.substring(startIndex, endIndex + 1);
 
-        return partialText;
+        return text.substring(startIndex, endIndex + 1);
     }
+
+
+    //11
+    public boolean compareFirstAndLastLetters(String word) {
+
+        if (word.isEmpty()) {
+            return false;
+        } else {
+            String modifiedWord = word.toLowerCase();
+            char firstLetter = modifiedWord.charAt(0);
+            char lastLetter = modifiedWord.charAt(word.length() - 1);
+
+            return firstLetter == lastLetter;
+        }
+    }
+
 
 
 
