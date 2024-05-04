@@ -109,7 +109,7 @@ Test Data:
 
 13. Написать метод, который принимает строку, и 2 индекса. Метод удаляет все, что находится между двумя индексами включительно
 Test Data:
-"Red rover, 1, 4 → "Rover"
+"Red rover", 1, 4 → "Rover"
 
 
  */
@@ -292,6 +292,21 @@ public class StringMethods {
             }
         }
         return "The string consists of just one word";
+    }
+
+
+    //13
+    public String returnPartialString(String text, int num1, int num2) {
+
+        if (text.isEmpty()) {
+            return "The string is empty";
+        } else if (num1 < 0 || num2 < 0) {
+            return "Numbers can't be negative";
+        }
+        String firstPart = text.substring(0, num1);
+        String secondPart = text.substring(num2 + 1);
+
+        return firstPart.concat(secondPart);
     }
 
 

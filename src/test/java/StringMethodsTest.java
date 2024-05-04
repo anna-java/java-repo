@@ -497,5 +497,62 @@ public class StringMethodsTest {
     }
 
 
+    //13
+    @Test
+    public void testPartialString() {
+
+        String text = "Red rover";
+        int num1 = 1;
+        int num2 = 4;
+        String expectedResult = "Rover";
+
+        String actualResult = new StringMethods().returnPartialString(text, num1, num2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testNegativeNumbers() {
+
+        String text = "Red rover";
+        int num1 = -1;
+        int num2 = 4;
+        String expectedResult = "Numbers can't be negative";
+
+        String actualResult = new StringMethods().returnPartialString(text, num1, num2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testEqualNumbers() {
+
+        String text = "Red rover";
+        int num1 = 3;
+        int num2 = 3;
+        String expectedResult = "Redrover";
+
+        String actualResult = new StringMethods().returnPartialString(text, num1, num2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testEmptyString13() {
+
+        String text = "";
+        int num1 = 2;
+        int num2 = 5;
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().returnPartialString(text, num1, num2);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 
 }
