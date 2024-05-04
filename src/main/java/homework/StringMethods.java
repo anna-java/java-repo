@@ -101,6 +101,16 @@ Test Data:
 "Abracadabra" → true
 "Whippersnapper" → false
 
+Видео4: https://www.youtube.com/watch?v=AY5b6iIk8mM
+
+12. Напишите метод, который принимает на вход строку из двух слов, разделенных пробелом, и возвращает последнее слово
+Test Data:
+"Red Rover" → "Rover"
+
+13. Написать метод, который принимает строку, и 2 индекса. Метод удаляет все, что находится между двумя индексами включительно
+Test Data:
+"Red rover, 1, 4 → "Rover"
+
 
  */
 
@@ -265,6 +275,23 @@ public class StringMethods {
 
             return firstLetter == lastLetter;
         }
+    }
+
+
+    //12
+    public String returnSecondWord(String text) {
+
+        if (text.isEmpty()) {
+            return "The string is empty";
+        } else {
+            for (int i = 0; i < text.length(); i++) {
+
+                if (text.substring(i, i + 1).equals(" ")) {
+                    return text.substring(i + 1);
+                }
+            }
+        }
+        return "The string consists of just one word";
     }
 
 

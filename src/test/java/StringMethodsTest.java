@@ -460,5 +460,42 @@ public class StringMethodsTest {
     }
 
 
+    //12
+    @Test
+    public void testStringContainingTwoWords() {
+
+        String text = "Red Rover";
+        String expectedResult = "Rover";
+
+        String actualResult = new StringMethods().returnSecondWord(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testStringContainingOneWord() {
+
+        String text = "RedRover";
+        String expectedResult = "The string consists of just one word";
+
+        String actualResult = new StringMethods().returnSecondWord(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
+    @Test
+    public void testEmptyString12() {
+
+        String text = "";
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().returnSecondWord(text);
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+
 
 }
