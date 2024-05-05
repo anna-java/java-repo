@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Fix commenting in Lesson10" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Readme file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OddEven">
+  <component name="RunManager">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OddEven" />
       <module name="Java" />
@@ -407,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713635772751</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update Readme file">
+      <option name="closed" value="true" />
+      <created>1714422669784</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1714422669784</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2nd commit" />
     <MESSAGE value="Update USweather and Test" />
     <MESSAGE value="Create Homework and Lessons packages" />
     <MESSAGE value="Update Teacher" />
@@ -448,7 +457,8 @@
     <MESSAGE value="Add in-class code to Lesson10 class" />
     <MESSAGE value="Comment all the code in Lesson10" />
     <MESSAGE value="Fix commenting in Lesson10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix commenting in Lesson10" />
+    <MESSAGE value="Update Readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
