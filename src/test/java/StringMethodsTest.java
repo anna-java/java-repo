@@ -6,215 +6,215 @@ public class StringMethodsTest {
 
     //1
     @Test
-    public void StringWithExtraSpaces() {
+    public void testStringWithExtraSpaces() {
 
         String text = "    Red Rover School   ";
         String expectedResult = "Red Rover School; extra spaces are removed";
 
         String actualResult = new StringMethods().removeSpaces(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void StringWithoutExtraSpaces() {
+    public void testStringWithoutExtraSpaces() {
 
         String text = "Red Rover School";
         String expectedResult = "No extra spaces found";
 
         String actualResult = new StringMethods().removeSpaces(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void EmptyString() {
+    public void testEmptyString() {
 
         String text = "";
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().removeSpaces(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     //2
     @Test
-    public void RedRoverSchoolString() {
+    public void testRedRoverSchoolString() {
 
         String text = "    Red Rover School   ";
         String expectedResult = "Red Rover School";
 
         String actualResult = new StringMethods().removeAllAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void PandaString() {
+    public void testPandaString() {
 
         String text = "panda   ";
         String expectedResult = "pnd";
 
         String actualResult = new StringMethods().removeAllAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void TaramasalataString() {
+    public void testTaramasalataString() {
 
         String text = "taramasalata";
         String expectedResult = "trmslt";
 
         String actualResult = new StringMethods().removeAllAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
     @Test
-    public void EmptyString2() {
+    public void testEmptyString2() {
 
         String text = "";
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().removeAllAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     //3
     @Test
-    public void StringWithZerosAndSpaces() {
+    public void testStringWithZerosAndSpaces() {
 
         String text = "3504209706040000 ";
         String expectedResult = "35429764";
 
         String actualResult = new StringMethods().removeAllZeros(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void StringWithZerosNoSpaces() {
+    public void testStringWithZerosAndNoSpaces() {
 
         String text = "0000000111";
         String expectedResult = "111";
 
         String actualResult = new StringMethods().removeAllZeros(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void EmptyString3() {
+    public void testEmptyString3() {
 
         String text = "";
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().removeAllZeros(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     //4
     @Test
-    public void StringWithSpaces() {
+    public void testStringWithSpaces() {
 
         String text = "    R e d     Ro ve    r Sc   h ool   ";
         String expectedResult = "RedRoverSchool";
 
         String actualResult = new StringMethods().removeAllSpaces(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void StringWithSpaces2() {
+    public void testStringWithSpaces2() {
 
         String text = "p a     n   d a   ";
         String expectedResult = "panda";
 
         String actualResult = new StringMethods().removeAllSpaces(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void EmptyString4() {
+    public void testEmptyString4() {
 
         String text = "";
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().removeAllSpaces(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     //5
     @Test
-    public void StringWithAs() {
+    public void testStringWithAs() {
 
         String text = "Abracadabra";
         String expectedResult = "5, 6";
 
         String actualResult = new StringMethods().countAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void StringWithoutAs() {
+    public void testStringWithoutAs() {
 
         String text = "Homenum Revelio";
         String expectedResult = "0, 15";
 
         String actualResult = new StringMethods().countAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void StringWithAsAndSpaces() {
+    public void testStringWithAsAndSpaces() {
 
         String text = "3 tarAmasAlatA";
         String expectedResult = "6, 8";
 
         String actualResult = new StringMethods().countAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void EmptyString5() {
+    public void testEmptyString5() {
 
         String text = "";
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().countAs(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     //6
     @Test
-    public void ContainsWordJava() {
+    public void testStringContainingWordJava() {
 
         String text = "As of March 2022, Java 18 is the latest version, while Java 17, 11 and 8 are the current " +
                 "long-term support (LTS) versions. Oracle released the last zero-cost public update for the legacy " +
@@ -225,12 +225,12 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().countJava(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void NoWordJava() {
+    public void testStringNoWordJava() {
 
         String text = "99 little bugs in a code. 99 little bugs in a code. Take one down, and patch it around. " +
                 "235 critical bugs in the code.";
@@ -238,19 +238,19 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().countJava(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void EmptyString6() {
+    public void testEmptyString6() {
 
         String text = "";
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().countJava(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -263,19 +263,19 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().insertQuotes(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void EmptyString7() {
+    public void testEmptyString7() {
 
         String text = "";
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().insertQuotes(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -289,7 +289,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().insertQuotes2(text1, text2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -302,12 +302,12 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().insertQuotes2(text1, text2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void OneStringIsEmpty() {
+    public void testOneStringIsEmpty() {
 
         String text1 = "Test";
         String text2 = "";
@@ -315,12 +315,12 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().insertQuotes2(text1, text2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
     @Test
-    public void BothStringAreEmpty() {
+    public void testBothStringAreEmpty() {
 
         String text1 = "";
         String text2 = "";
@@ -328,7 +328,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().insertQuotes2(text1, text2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -341,7 +341,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().inputCity(city);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -353,7 +353,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().inputCity(city);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -365,7 +365,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().inputCity(city);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -379,7 +379,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().printPartialText(text, letter);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -392,7 +392,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().printPartialText(text, letter);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -405,7 +405,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().printPartialText(text, letter);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -418,7 +418,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().printPartialText(text, letter);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -431,7 +431,7 @@ public class StringMethodsTest {
 
         boolean actualResult = new StringMethods().compareFirstAndLastLetters(word);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -444,7 +444,7 @@ public class StringMethodsTest {
 
         boolean actualResult = new StringMethods().compareFirstAndLastLetters(word);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -456,7 +456,7 @@ public class StringMethodsTest {
 
         boolean actualResult = new StringMethods().compareFirstAndLastLetters(word);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -469,7 +469,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().returnSecondWord(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -481,7 +481,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().returnSecondWord(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -493,7 +493,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().returnSecondWord(text);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -508,7 +508,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().returnPartialString(text, num1, num2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -522,7 +522,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().returnPartialString(text, num1, num2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -536,7 +536,7 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().returnPartialString(text, num1, num2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 
@@ -550,7 +550,44 @@ public class StringMethodsTest {
 
         String actualResult = new StringMethods().returnPartialString(text, num1, num2);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    //14
+    @Test
+    public void testStringWithSpaces3() {
+
+        String sentence = "QA for Everyone";
+        String[] expectedResult = {"QA", "for", "Everyone"};
+
+        String[] actualResult = new StringMethods().returnWordsFromTheSentence(sentence);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testStringWithSpaces4() {
+
+        String sentence = "Александр Сергеевич Пушкин";
+        String[] expectedResult = {"Александр", "Сергеевич", "Пушкин"};
+
+        String[] actualResult = new StringMethods().returnWordsFromTheSentence(sentence);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testEmptyString14() {
+
+        String sentence = "";
+        String[] expectedResult = new String[0];
+
+        String[] actualResult = new StringMethods().returnWordsFromTheSentence(sentence);
+
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 

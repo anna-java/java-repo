@@ -111,6 +111,15 @@ Test Data:
 Test Data:
 "Red rover", 1, 4 → "Rover"
 
+Видео5: https://youtu.be/SBByYcrsXu0?t=42
+split()
+
+14. Напишите метод, который принимает на вход предложение и возвращает слова из этого предложения в виде массива слов
+Test Data:
+"QA for Everyone" → {"QA", "for", "Everyone"}
+"Александр Сергеевич Пушкин" → {"Александр", "Сергеевич", "Пушкин"}
+
+
 
  */
 
@@ -307,6 +316,17 @@ public class StringMethods {
         String secondPart = text.substring(num2 + 1);
 
         return firstPart.concat(secondPart);
+    }
+
+
+    //14
+    public String[] returnWordsFromTheSentence(String sentence) {
+
+        if (sentence.isEmpty()) {
+            return new String[0];
+        }
+        String[] arraySentence = sentence.split(" ");
+        return arraySentence;
     }
 
 
