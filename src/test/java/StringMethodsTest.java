@@ -591,5 +591,65 @@ public class StringMethodsTest {
     }
 
 
+    //15 skipped
+
+
+    //16
+    @Test
+    public void testRepeatedString() {
+
+        String word = "one";
+        int num = 5;
+
+        String expectedResult = "oneoneoneoneone";
+
+        String actualResult = new StringMethods().returnRepeatedString(word, num);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testNegativeNumber() {
+
+        String word = "one";
+        int num = -7;
+
+        String expectedResult = "The number must be a positive digit";
+
+        String actualResult = new StringMethods().returnRepeatedString(word, num);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testZero() {
+
+        String word = "one";
+        int num = 0;
+
+        String expectedResult = "The number must be a positive digit";
+
+        String actualResult = new StringMethods().returnRepeatedString(word, num);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testEmptyString15() {
+
+        String word = "";
+        int num = 2;
+
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().returnRepeatedString(word, num);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
 
 }

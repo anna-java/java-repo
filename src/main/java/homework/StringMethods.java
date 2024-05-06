@@ -119,6 +119,17 @@ Test Data:
 "QA for Everyone" → {"QA", "for", "Everyone"}
 "Александр Сергеевич Пушкин" → {"Александр", "Сергеевич", "Пушкин"}
 
+15*. Написать метод, который принимает на вход предложение, которое состоит из имени, фамилии, отчества и возвращает текст:
+Test Data:
+"Александр Сергеевич Пушкин" →
+"Имя: Александр
+Отчество: Сергеевич
+Фамилия: Пушкин"
+Без видео, используя документацию Oracle и гугл, найти методы класса String, которые помогут выполнить задания
+
+16. Написать метод, который принимает на вход слово и число n, и возвращает строку, где слово повторяется n раз.
+Test Data:
+"one", 5 → "oneoneoneoneone"
 
 
  */
@@ -328,6 +339,22 @@ public class StringMethods {
         String[] arraySentence = sentence.split(" ");
         return arraySentence;
     }
+
+
+    //15 skipped
+
+
+    //16
+    public String returnRepeatedString(String word, int num) {
+
+        if (word.isEmpty()) {
+            return "The string is empty";
+        } else if (num <= 0) {
+            return "The number must be a positive digit";
+        }
+        return word.repeat(num);
+    }
+
 
 
 
