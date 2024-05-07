@@ -638,7 +638,7 @@ public class StringMethodsTest {
 
 
     @Test
-    public void testEmptyString15() {
+    public void testEmptyString16() {
 
         String word = "";
         int num = 2;
@@ -646,6 +646,47 @@ public class StringMethodsTest {
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().returnRepeatedString(word, num);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    //17
+    @Test
+    public void testString() {
+
+        String text = "Moscow";
+        int index = 3;
+        String expectedResult = "c";
+
+        String actualResult = new StringMethods().returnLetter(text, index);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testNegativeIndex() {
+
+        String text = "Moscow";
+        int index = -5;
+        String expectedResult = "The index can't be a negative number";
+
+        String actualResult = new StringMethods().returnLetter(text, index);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testEmptyString17() {
+
+        String text = "";
+        int index = 2;
+
+        String expectedResult = "The string is empty";
+
+        String actualResult = new StringMethods().returnLetter(text, index);
 
         Assert.assertEquals(expectedResult, actualResult);
     }

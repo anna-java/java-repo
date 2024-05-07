@@ -131,6 +131,10 @@ Test Data:
 Test Data:
 "one", 5 → "oneoneoneoneone"
 
+17. Напишите метод, который принимает строку и index, и возвращает численное значение буквы, которая находится
+на позиции index (использовать только один метод класса String)
+
+
 
  */
 
@@ -353,6 +357,18 @@ public class StringMethods {
             return "The number must be a positive digit";
         }
         return word.repeat(num);
+    }
+
+
+    //17
+    public String returnLetter(String text, int index) {
+
+        if (text.isEmpty()) {
+            return "The string is empty";
+        } else if (index < 0) {
+            return "The index can't be a negative number";
+        }
+        return text.substring(index, index + 1);
     }
 
 
