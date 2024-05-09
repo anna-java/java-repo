@@ -1,10 +1,11 @@
-// BubbleSort with boolean and while
+//BubbleSort with While and For loops
+
 
 package algorithms;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSort_WhileAndForLoops {
 
     public static void bubbleSort(int[] array) {
 

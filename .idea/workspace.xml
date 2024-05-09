@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Readme file with Hello Java pattern again">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort.java" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add BubbleSort algorithm with boolean and while">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort_NestedForLoops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort_WhileAndForLoops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,18 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anna-java&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anna-java/java-repo.git&quot;,
+    &quot;accountId&quot;: &quot;9d33d163-9cd6-43c4-9b05-af298a0b43bd&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,6 +59,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.BubbleSort.executor": "Run",
+    "Application.BubbleSort2.executor": "Run",
+    "Application.BubbleSort_BooleanAndWhileLoop.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
     "Application.FizzBuzzIfElse.executor": "Run",
     "Application.FizzBuzzNew.executor": "Run",
@@ -87,14 +102,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="OddEven" />
       <module name="Java" />
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,13 +170,6 @@
         <item itemvalue="TestNG.OddEvenTest.testNumOddOrEven_Zero" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -436,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714941598267</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add BubbleSort algorithm with boolean and while">
+      <option name="closed" value="true" />
+      <created>1715215242796</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1715215242796</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -452,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update Teacher" />
     <MESSAGE value="update Person class" />
     <MESSAGE value="Update Student.java" />
     <MESSAGE value="Update package lessons" />
@@ -477,7 +492,8 @@
     <MESSAGE value="Update Readme file" />
     <MESSAGE value="Update Readme file with Hello Java pattern" />
     <MESSAGE value="Update Readme file with Hello Java pattern again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Readme file with Hello Java pattern again" />
+    <MESSAGE value="Add BubbleSort algorithm with boolean and while" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BubbleSort algorithm with boolean and while" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
