@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Readme file">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Readme file with Hello Java pattern again">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,59 +35,61 @@
 }</component>
   <component name="ProjectId" id="2cvecn6Er5YCWNYC9w4dlFRpVQc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzzIfElse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzzNew.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Helpers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.USweather.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.FizzBuzzTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartEqualsEnd_HappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartGreaterThanEnd_Negative.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartLessThanEnd_HappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartLessThanEnd_StartEndAreNegative_HappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.testNumOddOrEven_NegativeNum.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.testNumOddOrEven_PositiveNum.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.testNumOddOrEven_Zero.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anna/IdeaProjects/Java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BubbleSort.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.FizzBuzzIfElse.executor": "Run",
+    "Application.FizzBuzzNew.executor": "Run",
+    "Application.HW1.executor": "Run",
+    "Application.HW2.executor": "Run",
+    "Application.HW3.executor": "Run",
+    "Application.HW4.executor": "Run",
+    "Application.HW7.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.Helpers.executor": "Run",
+    "Application.Lesson10.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.Teacher.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.USweather.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.FizzBuzzTest.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartEqualsEnd_HappyPath.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartGreaterThanEnd_Negative.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartLessThanEnd_HappyPath.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartLessThanEnd_StartEndAreNegative_HappyPath.executor": "Run",
+    "TestNG.OddEvenTest.executor": "Run",
+    "TestNG.OddEvenTest.testNumOddOrEven_NegativeNum.executor": "Run",
+    "TestNG.OddEvenTest.testNumOddOrEven_PositiveNum.executor": "Run",
+    "TestNG.OddEvenTest.testNumOddOrEven_Zero.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/anna/IdeaProjects/Java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OddEven" />
@@ -417,7 +420,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714422669784</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update Readme file with Hello Java pattern">
+      <option name="closed" value="true" />
+      <created>1714941417354</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1714941417354</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Update Readme file with Hello Java pattern again">
+      <option name="closed" value="true" />
+      <created>1714941598267</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1714941598267</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,8 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update USweather and Test" />
-    <MESSAGE value="Create Homework and Lessons packages" />
     <MESSAGE value="Update Teacher" />
     <MESSAGE value="update Person class" />
     <MESSAGE value="Update Student.java" />
@@ -458,7 +475,9 @@
     <MESSAGE value="Comment all the code in Lesson10" />
     <MESSAGE value="Fix commenting in Lesson10" />
     <MESSAGE value="Update Readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Readme file" />
+    <MESSAGE value="Update Readme file with Hello Java pattern" />
+    <MESSAGE value="Update Readme file with Hello Java pattern again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme file with Hello Java pattern again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -477,6 +496,10 @@
           <url>file://$PROJECT_DIR$/src/main/java/homework/HW5.java</url>
           <line>97</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/ConditionalActions.java</url>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java</url>
