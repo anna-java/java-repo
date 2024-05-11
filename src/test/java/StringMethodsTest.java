@@ -683,7 +683,6 @@ public class StringMethodsTest {
 
         String text = "";
         int index = 2;
-
         String expectedResult = "The string is empty";
 
         String actualResult = new StringMethods().returnLetter(text, index);
@@ -692,5 +691,46 @@ public class StringMethodsTest {
     }
 
 
+    //18
+    @Test
+    public void testTheSameWords() {
 
+        String word1 = "one";
+        String word2 = "One";
+        String word3 = "ONE";
+        boolean expectedResult = true;
+
+        boolean actualResult = new StringMethods().compareThreeWords(word1, word2, word3);
+
+        Assert.assertEquals(expectedResult, actualResult);
+
+    }
+
+
+    @Test
+    public void testDifferentWords() {
+
+        String word1 = "one";
+        String word2 = "Один";
+        String word3 = "ONE";
+        boolean expectedResult = false;
+
+        boolean actualResult = new StringMethods().compareThreeWords(word1, word2, word3);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void testEmptyString18() {
+
+        String word1 = "one";
+        String word2 = "Один";
+        String word3 = "";
+        boolean expectedResult = false;
+
+        boolean actualResult = new StringMethods().compareThreeWords(word1, word2, word3);
+
+        Assert.assertEquals(expectedResult, actualResult);
+    }
 }

@@ -134,8 +134,11 @@ Test Data:
 17. Напишите метод, который принимает строку и index, и возвращает численное значение буквы, которая находится
 на позиции index (использовать только один метод класса String)
 
-
-
+18. Написать метод, который принимает 3 слова, и сравнивает их методом, который считает, что прописные и заглавные
+буквы - это одни и те же буквы. Метод возвращает true, если все слова одинаковы, и метод возвращает false, если слова не одинаковы:
+Test Data:
+"one", "One", "ONE"  → true
+"one", "Один", "ONE" → false
  */
 
 
@@ -372,8 +375,20 @@ public class StringMethods {
     }
 
 
+    //18
+    public boolean compareThreeWords(String word1, String word2, String word3) {
 
+        if (word1.isEmpty() || (word2.isEmpty()) || (word3.isEmpty())) {
+            return false;
+        }
+        String word1New = word1.toLowerCase();
+        String word2New = word2.toLowerCase();
+        String word3New = word3.toLowerCase();
 
-
+        if (word1New.equals(word2New) && (word2New.equals(word3New))) {
+            return true;
+        }
+        return false;
     }
+}
 
