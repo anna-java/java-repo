@@ -22,7 +22,8 @@ public class BubbleSort_NestedForLoops {
         }
     }
 
-    public static void main(String[] args) {
+
+        public static void main(String[] args) {
 
         int[] array = {2, 4, 66, 4, 3, 23, 5, 330};
 
