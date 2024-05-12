@@ -10,12 +10,12 @@ https://www.youtube.com/watch?v=gDPfNJw2VQ8
 
 1. Написать алгоритм StringToNumbers, который принимает строку, и возвращает массив чисел:
 Test Data:
-“1, 2, 3, 4, 5” → {1, 2, 3, 4, 5}
+"1, 2, 3, 4, 5" → {1, 2, 3, 4, 5}
 (Без форматирования и с форматированием)
 
 2. Написать 4 алгоритма StringToLetters, StringToLettersAndSpaces, StringToNumbers, StringToNumbersAndSpaces следуя
 примеру на сайте: https://allcalc.ru/node/2030
-Каждый алгоритм принимает строку,  и удаляет ненужные символы:
+Каждый алгоритм принимает строку, и удаляет ненужные символы:
 Без форматирования, пожалуйста!
 Note - missing image
 
@@ -53,8 +53,72 @@ on odd indexes should be letters (ascending order)
 Придумать тест кейсы на проверку сгенерированного пароля на валидность. Написать тесты
  */
 
+
 package homework;
 
 public class HW10 {
+
+    static String line = "_________________________________________\n";
+    static String line2 = "\t -- \t";
+    static String text = "TC ";
+    static int num = 1;
+    static char letter = 'a';
+
+
+    public static void printTCNumber() {
+        System.out.print(line + text + num + line2);
+        num++;
+    }
+
+
+    public static void printLetter() {
+        System.out.print(line + text + num + letter + line2);
+        letter++;
+    }
+
+
+    //1a, without formatting
+    public static void stringToNumbers(String text) {
+
+        if (!text.isEmpty()) {
+            System.out.printf("%s%n", text);
+        } else {
+            System.out.println("The string is empty");
+        }
+    }
+
+
+    //1b, with formatting
+    public static void stringToNumbers2(String text) {
+
+        char openingBracket = '{';
+        char closingBracket = '}';
+
+        if (!text.isEmpty()) {
+            System.out.printf("%c%s%c%n", openingBracket, text, closingBracket);
+        } else {
+            System.out.println("The string is empty");
+        }
+    }
+
+
+    public static void main(String[] args) {
+
+        //1a
+        printLetter();
+
+        String text = "1, 2, 3, 4, 5";
+
+        stringToNumbers(text);
+
+
+        //1b
+        printLetter();
+
+        text = "1, 2, 3, 4, 5";
+
+        stringToNumbers2(text);
+
+    }
 
 }

@@ -390,6 +390,5 @@ public class StringMethods {
         }
         return false;
     }
-
 }
 
