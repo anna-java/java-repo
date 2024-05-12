@@ -29,7 +29,8 @@ Note - missing image
 "0123456789" → false
 
 5. Write a method that takes a string and returns a string made of the last 3 characters and the first 3 characters
-of the passed string, if the argument string is longer than 5 characters or the method returns a string containing the first char repeated number of chars times
+of the passed string, if the argument string is longer than 5 characters or the method returns a string containing
+the first char repeated number of chars times
 
 6. A method should return a string with a length of 10, on even indexes should be even digits (ascending order)
 on odd indexes should be letters (ascending order)
