@@ -111,7 +111,7 @@ public class ManipulationsWithArrays {
     }
 
 
-    public boolean areValuesGreaterThanNumber(int[]array, int number) {
+    public boolean areValuesGreaterThanNumber(int[] array, int number) {
 
         if (array == null || array.length == 0) {
             return false;

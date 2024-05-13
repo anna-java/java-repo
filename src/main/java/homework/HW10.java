@@ -56,6 +56,10 @@ on odd indexes should be letters (ascending order)
 
 package homework;
 
+import java.util.Arrays;
+
+import static java.lang.String.*;
+
 public class HW10 {
 
     static String line = "_________________________________________\n";
@@ -77,7 +81,7 @@ public class HW10 {
     }
 
 
-    //1a, without formatting
+    //1a with formatting
     public static void stringToNumbers(String text) {
 
         if (!text.isEmpty()) {
@@ -88,7 +92,7 @@ public class HW10 {
     }
 
 
-    //1b, with formatting
+    //1b with formatting
     public static void stringToNumbers2(String text) {
 
         char openingBracket = '{';
@@ -99,6 +103,17 @@ public class HW10 {
         } else {
             System.out.println("The string is empty");
         }
+    }
+
+
+    //1c without formatting
+    public static void stringToNumbers3(String text) {
+
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        }
+        String[] arrayText = text.split(",");
+        System.out.println(Arrays.toString(arrayText));
     }
 
 
@@ -119,6 +134,17 @@ public class HW10 {
 
         stringToNumbers2(text);
 
-    }
 
+        //1c
+        printLetter();
+
+        text = "1, 2, 3, 4, 5";
+
+        stringToNumbers3(text);
+
+
+
+
+
+    }
 }
