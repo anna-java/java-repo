@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Write Bubble Sort algorithm method 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add JUnit framework to pom.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OddEven">
+  <component name="RunManager">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="OddEven" />
@@ -469,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715453328054</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add JUnit framework to pom.xml">
+      <option name="closed" value="true" />
+      <created>1715550443053</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1715550443053</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update package lessons" />
     <MESSAGE value="Update homework package" />
     <MESSAGE value="To create algorithms package" />
     <MESSAGE value="To update class HW2" />
@@ -510,7 +514,8 @@
     <MESSAGE value="Add BubbleSort algorithm with boolean and while" />
     <MESSAGE value="Write Bubble Sort algorithm with nested For loops" />
     <MESSAGE value="Write Bubble Sort algorithm method 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Write Bubble Sort algorithm method 3" />
+    <MESSAGE value="Add JUnit framework to pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit framework to pom.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
