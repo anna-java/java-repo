@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update pom.xml with the Selenium dependency">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstAutoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Write the first auto test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -503,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716048714059</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Write the first auto test">
+      <option name="closed" value="true" />
+      <created>1716049583657</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1716049583657</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="To write FizzBuzz algorithm and test it" />
     <MESSAGE value="To update class HW3" />
     <MESSAGE value="To update class HW4" />
     <MESSAGE value="To update class HW3 with tasks" />
@@ -544,7 +548,8 @@
     <MESSAGE value="Add code from lesson 7" />
     <MESSAGE value="Add code from lesson 6" />
     <MESSAGE value="Update pom.xml with the Selenium dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update pom.xml with the Selenium dependency" />
+    <MESSAGE value="Write the first auto test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write the first auto test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,7 +576,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FirstAutoTest.java</url>
           <line>6</line>
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java</url>
