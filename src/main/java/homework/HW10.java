@@ -117,6 +117,17 @@ public class HW10 {
     }
 
 
+    //2
+    public static void stringToLetters(String text) {
+
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        }
+        String newText = text.replaceAll("[\\d\\W\\s]", "");
+        System.out.println(newText);
+    }
+
+
     public static void main(String[] args) {
 
         //1a
@@ -141,6 +152,16 @@ public class HW10 {
         text = "1, 2, 3, 4, 5";
 
         stringToNumbers3(text);
+
+
+        //2
+        num++;
+        printTCNumber();
+
+        text = "8Cx1*6.Q{DWu! ft}+8/T*N1ggL18cc";
+
+        stringToLetters(text);
+
 
 
 
