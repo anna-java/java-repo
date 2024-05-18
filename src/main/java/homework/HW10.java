@@ -132,8 +132,7 @@ public class HW10 {
         if (text.isEmpty()) {
             System.out.println("The string is empty");
         }
-        String newText = text.replaceAll("[\\d\\W]", "");
-        // need to figure out how to keep all the spaces
+        String newText = text.replaceAll("[\\d[^\\w\\s]]", "");
         System.out.println(newText);
     }
 

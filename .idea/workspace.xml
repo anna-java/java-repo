@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Write the first auto test" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update the first Selenium auto test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW10.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +66,7 @@
     "Application.FizzBuzzIfElse.executor": "Run",
     "Application.FizzBuzzNew.executor": "Run",
     "Application.HW1.executor": "Run",
+    "Application.HW10.executor": "Run",
     "Application.HW2.executor": "Run",
     "Application.HW3.executor": "Run",
     "Application.HW4.executor": "Run",
@@ -106,7 +110,7 @@
     "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FirstAutoTest">
+  <component name="RunManager">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="OddEven" />
@@ -508,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716049583657</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Update the first Selenium auto test">
+      <option name="closed" value="true" />
+      <created>1716051236629</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1716051236629</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,7 +536,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="To update class HW3" />
     <MESSAGE value="To update class HW4" />
     <MESSAGE value="To update class HW3 with tasks" />
     <MESSAGE value="To update class HW4 with tasks for Part 1" />
@@ -549,7 +560,8 @@
     <MESSAGE value="Add code from lesson 6" />
     <MESSAGE value="Update pom.xml with the Selenium dependency" />
     <MESSAGE value="Write the first auto test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Write the first auto test" />
+    <MESSAGE value="Update the first Selenium auto test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the first Selenium auto test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -575,7 +587,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FirstAutoTest.java</url>
-          <line>6</line>
+          <line>8</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
