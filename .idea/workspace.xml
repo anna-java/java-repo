@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add code from lesson 7" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add code from lesson 6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -483,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715811491602</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add code from lesson 6">
+      <option name="closed" value="true" />
+      <created>1715881991796</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1715881991796</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +507,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="To create algorithms package" />
     <MESSAGE value="To update class HW2" />
     <MESSAGE value="To write FizzBuzz algorithm and test it" />
     <MESSAGE value="To update class HW3" />
@@ -524,7 +531,8 @@
     <MESSAGE value="Write Bubble Sort algorithm method 3" />
     <MESSAGE value="Add JUnit framework to pom.xml" />
     <MESSAGE value="Add code from lesson 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code from lesson 7" />
+    <MESSAGE value="Add code from lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code from lesson 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
