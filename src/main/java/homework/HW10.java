@@ -3,8 +3,7 @@ String format на английском
 https://www.youtube.com/watch?v=moQ3Kr8ouiU
 https://www.youtube.com/watch?v=avSRKltaIRU
 
-String format  и регулярные выражения на русском
-
+String format и регулярные выражения на русском
 https://www.youtube.com/watch?v=_pLpx6btq6U
 https://www.youtube.com/watch?v=gDPfNJw2VQ8
 
@@ -13,7 +12,7 @@ Test Data:
 "1, 2, 3, 4, 5" → {1, 2, 3, 4, 5}
 (Без форматирования и с форматированием)
 
-2. Написать 4 алгоритма StringToLetters, StringToLettersAndSpaces, StringToNumbers, StringToNumbersAndSpaces следуя
+2. Написать 4 алгоритма stringToLetters, stringToLettersAndSpaces, stringToNumbers, stringToNumbersAndSpaces следуя
 примеру на сайте: https://allcalc.ru/node/2030
 Каждый алгоритм принимает строку, и удаляет ненужные символы:
 Без форматирования, пожалуйста!
@@ -57,8 +56,6 @@ on odd indexes should be letters (ascending order)
 package homework;
 
 import java.util.Arrays;
-
-import static java.lang.String.*;
 
 public class HW10 {
 
@@ -112,20 +109,49 @@ public class HW10 {
         if (text.isEmpty()) {
             System.out.println("The string is empty");
         }
-        String[] arrayText = text.split(",");
+        String[] arrayText = new String[]{text.replaceAll("\\s", " ")};
         System.out.println(Arrays.toString(arrayText));
     }
 
 
-    //2
+    //2a
     public static void stringToLetters(String text) {
 
         if (text.isEmpty()) {
             System.out.println("The string is empty");
         }
-        String newText = text.replaceAll("[\\d\\W\\s]", "");
+        String newText = text.replaceAll("[\\d\\W]", "");
+        // \\d - a digit (integer), \\W - a non-word character, [] matches conditions inside the brackets
         System.out.println(newText);
     }
+
+
+    //2b
+    public static void stringToLettersAndSpaces(String text) {
+
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        }
+        String newText = text.replaceAll("[\\d\\W]", "");
+        // need to figure out how to keep all the spaces
+        System.out.println(newText);
+    }
+
+
+    //2c
+    public static void stringToNumbers4(String text) {
+
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        }
+        String newText = text.replaceAll("\\D", "");
+        // \\D - a non-digit character
+        System.out.println(newText);
+    }
+
+
+
+
 
 
     public static void main(String[] args) {
@@ -154,13 +180,30 @@ public class HW10 {
         stringToNumbers3(text);
 
 
-        //2
+        //2a
         num++;
-        printTCNumber();
+        letter = 'a';
+        printLetter();
 
-        text = "8Cx1*6.Q{DWu! ft}+8/T*N1ggL18cc";
+        text = "8Cx1*6.Q{DWu! ft}+8/T*N1 ggL18cc";
 
         stringToLetters(text);
+
+
+        //2b
+        printLetter();
+
+        text = "LW.?bwdX6AZBw FwZtn0/G &bY.U*#[9";
+
+        stringToLettersAndSpaces(text);
+
+
+        //2c
+        printLetter();
+
+        text = "fz;-qL}D@+6#jSh KMe/+%6JK 3x+*SL";
+
+        stringToNumbers4(text);
 
 
 
