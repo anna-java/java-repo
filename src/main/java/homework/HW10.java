@@ -149,6 +149,18 @@ public class HW10 {
     }
 
 
+    //2d
+    public static void stringToNumbersAndSpaces(String text) {
+
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        }
+        String newText = text.replaceAll("[^\\d\\s]", "");
+        System.out.println(newText);
+    }
+
+
+
 
 
 
@@ -203,6 +215,14 @@ public class HW10 {
         text = "fz;-qL}D@+6#jSh KMe/+%6JK 3x+*SL";
 
         stringToNumbers4(text);
+
+
+        //2c
+        printLetter();
+
+        text = ",-{#%(7+ 2n8Dib2Ufe_/tw5 C+7#mWz";
+
+        stringToNumbersAndSpaces(text);
 
 
 
