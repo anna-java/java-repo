@@ -19,7 +19,7 @@ Test Data:
 Note - missing image
 
 3. Write a method that returns string argument n times separated by comma, and number of characters in new string
-“abc”, 5 → “abc, abc, abc, abc, abc”, 19
+“abc”, 5 → “abc,abc,abc,abc,abc”, 19
 
 4. Find if the passed string is a natural number
 “1” → true
@@ -56,6 +56,7 @@ on odd indexes should be letters (ascending order)
 package homework;
 
 import java.util.Arrays;
+import java.util.Formatter;
 
 public class HW10 {
 
@@ -160,6 +161,19 @@ public class HW10 {
     }
 
 
+    //3
+    public static void stringNTimesAndCountLength(String sentence, int n) {
+
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        }
+        char comma = ',';
+        String space = " ";
+        String newSentence = String.format("%s%c%s", sentence, comma, space).repeat(n - 1).concat(sentence);
+        System.out.printf(newSentence + "%s" + newSentence.length(), space);
+    }
+
+
 
 
 
@@ -223,6 +237,18 @@ public class HW10 {
         text = ",-{#%(7+ 2n8Dib2Ufe_/tw5 C+7#mWz";
 
         stringToNumbersAndSpaces(text);
+
+
+        //3
+        num++;
+        printTCNumber();
+
+        String sentence = "abc";
+        int n = 5;
+
+        stringNTimesAndCountLength(sentence, n);
+
+
 
 
 
