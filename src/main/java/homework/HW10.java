@@ -56,7 +56,6 @@ on odd indexes should be letters (ascending order)
 package homework;
 
 import java.util.Arrays;
-import java.util.Formatter;
 
 public class HW10 {
 
@@ -174,6 +173,17 @@ public class HW10 {
     }
 
 
+    //4
+    public static void checkIfANaturalNumber(String text) {
+
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        }
+        boolean result = text.matches("[1-9][0-9]*");
+        System.out.println(result);
+    }
+
+
 
 
 
@@ -247,6 +257,27 @@ public class HW10 {
         int n = 5;
 
         stringNTimesAndCountLength(sentence, n);
+        System.out.println();
+
+
+        //4
+        letter = 'a';
+
+        printLetter();
+        text = "1";
+        checkIfANaturalNumber(text);
+
+        printLetter();
+        text = "1.1";
+        checkIfANaturalNumber(text);
+
+        printLetter();
+        text = "a";
+        checkIfANaturalNumber(text);
+
+        printLetter();
+        text = "0123456789";
+        checkIfANaturalNumber(text);
 
 
 
