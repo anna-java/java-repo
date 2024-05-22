@@ -28,10 +28,10 @@ Note - missing image
 "0123456789" → false
 
 5. Write a method that takes a string and returns a string made of the last 3 characters and the first 3 characters
-of the passed string, if the argument string is longer than 5 characters or the method returns a string containing
+of the passed string. If the argument string is longer than 5 characters, the method returns a string containing
 the first char repeated number of chars times
 
-6. A method should return a string with a length of 10, on even indexes should be even digits (ascending order)
+6. A method should return a string with a length of 10, on even indexes should be even digits (ascending order),
 on odd indexes should be letters (ascending order)
 
 7. Написать метод, который принимает строку и натуральное число, меньше 10, и возвращает порядковые номера (не индексы!)
@@ -184,7 +184,30 @@ public class HW10 {
     }
 
 
+    //5
+    public static void manipulationsWithString(String text) {
 
+        if (text.isEmpty()) {
+            System.out.println("The string is empty");
+        } else if (text.length() <= 5) {
+            String first3Letters = text.substring(0, 3);
+            String last3Letters = text.substring(text.length() - 3);
+
+            System.out.println(first3Letters.concat(last3Letters));
+        } else {
+            text = text.trim().toLowerCase();
+            char firstLetter = text.charAt(0);
+            int count = 0;
+
+            for (int i = 0; i < text.length(); i++) {
+
+                if (text.charAt(i) == firstLetter) {
+                    count++;
+                }
+            }
+            System.out.println(String.valueOf(firstLetter).repeat(count));
+        }
+    }
 
 
 
@@ -262,22 +285,62 @@ public class HW10 {
 
         //4
         letter = 'a';
-
         printLetter();
+
         text = "1";
+
         checkIfANaturalNumber(text);
 
+
         printLetter();
+
         text = "1.1";
+
         checkIfANaturalNumber(text);
 
+
         printLetter();
+
         text = "a";
+
         checkIfANaturalNumber(text);
 
+
         printLetter();
+
         text = "0123456789";
+
         checkIfANaturalNumber(text);
+
+
+        //5
+        letter = 'a';
+        printLetter();
+
+        text = "";
+
+        manipulationsWithString(text);
+
+
+        printLetter();
+
+        text = "Anton";
+
+        manipulationsWithString(text);
+
+
+        printLetter();
+
+        text = "Chupacabra";
+
+        manipulationsWithString(text);
+
+
+        printLetter();
+
+        text = "Kate likes cakes";
+
+        manipulationsWithString(text);
 
 
 

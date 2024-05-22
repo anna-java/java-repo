@@ -1,4 +1,4 @@
-import homework.StringMethods;
+import algorithms.StringMethods;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

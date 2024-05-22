@@ -142,7 +142,7 @@ Test Data:
  */
 
 
-package homework;
+package algorithms;
 
 
 public class StringMethods {

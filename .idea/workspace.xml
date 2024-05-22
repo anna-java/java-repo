@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Write stringNTimesAndCountLength using regex">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Write checkIfANaturalNumber method using regex">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/StringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringMethodsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstAutoTest" />
         <item itemvalue="Application.OddEven" />
+        <item itemvalue="TestNG.FirstAutoTest" />
         <item itemvalue="TestNG.OddEvenTest" />
         <item itemvalue="TestNG.OddEvenTest.testNumOddOrEven_NegativeNum" />
         <item itemvalue="TestNG.OddEvenTest.testNumOddOrEven_PositiveNum" />
@@ -544,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716155123352</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Write checkIfANaturalNumber method using regex">
+      <option name="closed" value="true" />
+      <created>1716259993098</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1716259993098</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -560,7 +570,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="To update class HW4 with tasks for Part 2 and Part 3" />
     <MESSAGE value="Update class HW5 with tasks for th Part 1" />
     <MESSAGE value="Update class HW5 with tasks for th Part 2" />
     <MESSAGE value="Update class HW5 with tasks for th Part 3" />
@@ -585,7 +594,8 @@
     <MESSAGE value="Fix stringToLettersAndSpaces method to contain spaces" />
     <MESSAGE value="Write stringToNumbersAndSpaces method using regex" />
     <MESSAGE value="Write stringNTimesAndCountLength using regex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Write stringNTimesAndCountLength using regex" />
+    <MESSAGE value="Write checkIfANaturalNumber method using regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write checkIfANaturalNumber method using regex" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
