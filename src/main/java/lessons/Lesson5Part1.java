@@ -15,6 +15,7 @@ public class Lesson5Part1 {
                 + ", а остаток от деления  = " + remainder;
     }
 
+
     public static String returnKLMActions(int parameter1, int parameter2,  String varName1, String varName2) {
         int quotient = parameter1 / parameter2;
         int remainder = parameter1 % parameter2;
@@ -25,11 +26,13 @@ public class Lesson5Part1 {
         return result;
     }
 
+
     public static int doubleTheValue (int a) {
         int result = a * 2;
 
         return result;
     }
+
 
     public static int tripleTheValue (int a) {
         int result = a * 3;
