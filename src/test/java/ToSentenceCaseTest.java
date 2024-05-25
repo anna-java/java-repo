@@ -5,14 +5,17 @@ import org.testng.annotations.Test;
 
 public class ToSentenceCaseTest {
 
+    private static final String SENTENCE = "Mother";
+    private static final String URL = "https://capitalizemytitle.com";
+
+
     @Test
     public void testCapitalizeMyTitle() {
 
-        String sentence = "Mother";
-        final String expectedResult = new ToSentenceCase().toSentenceCase(sentence);
+        final String expectedResult = new ToSentenceCase().toSentenceCase(SENTENCE);
 
         WebDriver driver = new ChromeDriver();
-        driver.get("https://capitalizemytitle.com");
+        driver.get(URL);
 
 
 

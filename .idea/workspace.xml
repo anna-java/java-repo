@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add code to Lesson5Part1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/ToSentenceCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstAutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00004" summary="2nd commit">
-      <option name="closed" value="true" />
-      <created>1709065389752</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709065389752</updated>
     </task>
     <task id="LOCAL-00005" summary="2nd commit">
       <option name="closed" value="true" />
@@ -578,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716488924638</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version">
+      <option name="closed" value="true" />
+      <created>1716660071677</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1716660071678</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update HW6 class with tasks for the Part 1" />
     <MESSAGE value="Update HW6 class with tasks for the Part 2" />
     <MESSAGE value="Update HW6 class with tasks for the Part 3" />
     <MESSAGE value="Add in-class code to Lesson10 class" />
@@ -619,7 +617,8 @@
     <MESSAGE value="Write manipulationsWithString method" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Add code to Lesson5Part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code to Lesson5Part1" />
+    <MESSAGE value="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,11 +641,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/ConditionalActions.java</url>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java</url>
