@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class FirstAutoTest {
+public class FirstSeleniumTest {
     WebDriver driver = new ChromeDriver();
 
     @Test
@@ -15,5 +15,6 @@ public class FirstAutoTest {
         driver.get("https://github.com/anna-java/");
         Assert.assertEquals(driver.getTitle(), "anna-java (Anna B) · GitHub");
         driver.quit();
+        //or driver.close();
     }
 }
