@@ -3,6 +3,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import javax.swing.text.html.CSS;
+
 public class ToSentenceCaseTest {
 
     //private static final String SENTENCE = "Mom";
@@ -18,11 +20,19 @@ public class ToSentenceCaseTest {
         WebDriver driver = new ChromeDriver();
         driver.get(URL);
 
+        /*
+        xPath
+        //textarea[@id='main_input']
+
+        CSS
+        textarea#main_input
+        */
+
+        //driver.findElement();
+
 
 
 
         driver.quit();
-
-
     }
 }

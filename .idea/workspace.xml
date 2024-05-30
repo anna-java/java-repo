@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update ToSentenceCase first test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/Lesson5Part2.java" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add code to Lesson5Part2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" afterDir="false" />
     </list>
@@ -184,14 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Update USweather and Test">
-      <option name="closed" value="true" />
-      <created>1709147225873</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709147225873</updated>
     </task>
     <task id="LOCAL-00007" summary="Create Homework and Lessons packages">
       <option name="closed" value="true" />
@@ -577,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716662067970</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Add code to Lesson5Part2">
+      <option name="closed" value="true" />
+      <created>1716912961646</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1716912961646</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,7 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update HW6 class with tasks for the Part 3" />
     <MESSAGE value="Add in-class code to Lesson10 class" />
     <MESSAGE value="Comment all the code in Lesson10" />
     <MESSAGE value="Fix commenting in Lesson10" />
@@ -618,7 +616,8 @@
     <MESSAGE value="Add code to Lesson5Part1" />
     <MESSAGE value="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version" />
     <MESSAGE value="Update ToSentenceCase first test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ToSentenceCase first test" />
+    <MESSAGE value="Add code to Lesson5Part2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code to Lesson5Part2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
