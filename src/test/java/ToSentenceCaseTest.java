@@ -1,5 +1,7 @@
 import homework.ToSentenceCase;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -21,18 +23,23 @@ public class ToSentenceCaseTest {
         driver.get(URL);
 
         /*
-        xPath
+        xpath
         //textarea[@id='main_input']
 
-        CSS
+        css
         textarea#main_input
         */
 
-        //driver.findElement();
+        //three ways to find an element
+        driver.findElement(By.name("main_input"));
+        WebElement textarea = driver.findElement(By.xpath("//textarea[@id='main_input']"));
+        driver.findElement(By.cssSelector("textarea#main_input"));
 
+        textarea.sendKeys(TEST_SENTENCE);
 
 
 
         driver.quit();
+        //driver.close();
     }
 }
