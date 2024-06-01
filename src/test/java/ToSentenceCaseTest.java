@@ -15,7 +15,7 @@ public class ToSentenceCaseTest {
 
 
     @Test
-    public void testCapitalizeMyTitle() {
+    public void testCapitalizeMyTitle() throws InterruptedException {
 
         final String expectedResult = new ToSentenceCase().toSentenceCase(TEST_SENTENCE);
 
@@ -25,17 +25,25 @@ public class ToSentenceCaseTest {
         /*
         xpath
         //textarea[@id='main_input']
-
+        or
         css
         textarea#main_input
         */
 
-        //three ways to find an element
+        //3 ways to find an element
         driver.findElement(By.name("main_input"));
-        WebElement textarea = driver.findElement(By.xpath("//textarea[@id='main_input']"));
+        WebElement textArea = driver.findElement(By.xpath("//textarea[@id='main_input']"));
         driver.findElement(By.cssSelector("textarea#main_input"));
 
-        textarea.sendKeys(TEST_SENTENCE);
+        textArea.sendKeys(TEST_SENTENCE);
+        Thread.sleep(3000);
+
+        WebElement sentenceCaseButton = driver.findElement(By.id("sentencecase"));
+        sentenceCaseButton.click();
+        Thread.sleep(3000);
+
+        String actualResult = textArea.getText();
+
 
 
 
