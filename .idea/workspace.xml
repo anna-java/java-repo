@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add code to Lesson4Part2">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update ToSentenceCaseTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" afterDir="false" />
     </list>
@@ -186,14 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00009" summary="update Person class">
-      <option name="closed" value="true" />
-      <created>1709168952931</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1709168952931</updated>
     </task>
     <task id="LOCAL-00010" summary="Update Student.java">
       <option name="closed" value="true" />
@@ -579,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717115171184</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Update ToSentenceCaseTest">
+      <option name="closed" value="true" />
+      <created>1717269201343</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1717269201344</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +595,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update Readme file" />
     <MESSAGE value="Update Readme file with Hello Java pattern" />
     <MESSAGE value="Update Readme file with Hello Java pattern again" />
     <MESSAGE value="Add BubbleSort algorithm with boolean and while" />
@@ -620,7 +619,8 @@
     <MESSAGE value="Add code to Lesson4Part1Part2" />
     <MESSAGE value="Add code to Lesson4Part1" />
     <MESSAGE value="Add code to Lesson4Part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code to Lesson4Part2" />
+    <MESSAGE value="Update ToSentenceCaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ToSentenceCaseTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -646,7 +646,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java</url>
-          <line>9</line>
+          <line>18</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
