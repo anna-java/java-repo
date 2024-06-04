@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update ToSentenceCaseTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Finish ToSentenceCaseTest">
       <change beforePath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ToSentenceCaseTest.testCapitalizeMyTitle">
+  <component name="RunManager">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="OddEven" />
@@ -186,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update Student.java">
-      <option name="closed" value="true" />
-      <created>1709245884933</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1709245884933</updated>
     </task>
     <task id="LOCAL-00011" summary="Update package lessons">
       <option name="closed" value="true" />
@@ -579,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717269201344</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Finish ToSentenceCaseTest">
+      <option name="closed" value="true" />
+      <created>1717370789879</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1717370789879</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +594,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update Readme file with Hello Java pattern" />
     <MESSAGE value="Update Readme file with Hello Java pattern again" />
     <MESSAGE value="Add BubbleSort algorithm with boolean and while" />
     <MESSAGE value="Write Bubble Sort algorithm with nested For loops" />
@@ -620,7 +618,8 @@
     <MESSAGE value="Add code to Lesson4Part1" />
     <MESSAGE value="Add code to Lesson4Part2" />
     <MESSAGE value="Update ToSentenceCaseTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ToSentenceCaseTest" />
+    <MESSAGE value="Finish ToSentenceCaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish ToSentenceCaseTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -646,7 +645,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

@@ -7,6 +7,7 @@
 * 6. Verify that modified text matches the expected result
 */
 
+
 import homework.ToSentenceCase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
