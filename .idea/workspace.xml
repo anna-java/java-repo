@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add code to Lesson3Part2" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add code to Lesson2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Web99BottlesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +74,7 @@
     "Application.HelloWorld.executor": "Run",
     "Application.Helpers.executor": "Run",
     "Application.Lesson10.executor": "Run",
+    "Application.Lesson2.executor": "Run",
     "Application.Lesson3Part1.executor": "Run",
     "Application.Lesson3Part2.executor": "Run",
     "Application.Lesson4Part2.executor": "Run",
@@ -102,6 +106,7 @@
     "TestNG.OddEvenTest.testNumOddOrEven_Zero.executor": "Run",
     "TestNG.ToSentenceCaseTest.executor": "Run",
     "TestNG.ToSentenceCaseTest.testCapitalizeMyTitle.executor": "Run",
+    "TestNG.Web99BottlesTest.test99Bottles.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
@@ -113,22 +118,11 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Web99BottlesTest.test99Bottles">
     <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="OddEven" />
       <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstAutoTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstAutoTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,13 +161,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Web99BottlesTest.test99Bottles" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Web99BottlesTest" />
+      <option name="METHOD_NAME" value="test99Bottles" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Web99BottlesTest.test99Bottles" />
         <item itemvalue="TestNG.ToSentenceCaseTest.testCapitalizeMyTitle" />
         <item itemvalue="TestNG.ToSentenceCaseTest" />
         <item itemvalue="TestNG.FirstSeleniumTest" />
         <item itemvalue="Application.OddEven" />
-        <item itemvalue="TestNG.FirstAutoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00014" summary="To update class HW2">
-      <option name="closed" value="true" />
-      <created>1709325790380</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1709325790380</updated>
     </task>
     <task id="LOCAL-00015" summary="To write FizzBuzz algorithm and test it">
       <option name="closed" value="true" />
@@ -578,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717642308206</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Add code to Lesson2">
+      <option name="closed" value="true" />
+      <created>1717719738511</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1717719738512</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +600,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Write Bubble Sort algorithm with nested For loops" />
     <MESSAGE value="Write Bubble Sort algorithm method 3" />
     <MESSAGE value="Add JUnit framework to pom.xml" />
     <MESSAGE value="Add code from lesson 7" />
@@ -619,7 +624,8 @@
     <MESSAGE value="Finish ToSentenceCaseTest" />
     <MESSAGE value="Add code to Lesson3Part1" />
     <MESSAGE value="Add code to Lesson3Part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code to Lesson3Part2" />
+    <MESSAGE value="Add code to Lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code to Lesson2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
