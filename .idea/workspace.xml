@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Web99BottlesTest and pom.xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LumaTopJacketsTest.java" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Start working on LumaTopJacketsTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LumaTopJacketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LumaTopJacketsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +101,7 @@
     "TestNG.FizzBuzzTest.testStartLessThanEnd_HappyPath.executor": "Run",
     "TestNG.FizzBuzzTest.testStartLessThanEnd_StartEndAreNegative_HappyPath.executor": "Run",
     "TestNG.LumaTopJacketsTest.executor": "Run",
+    "TestNG.LumaTopJacketsTest.testLumaTopJacketsTest.executor": "Run",
     "TestNG.OddEvenTest.executor": "Run",
     "TestNG.OddEvenTest.testNumOddOrEven_NegativeNum.executor": "Run",
     "TestNG.OddEvenTest.testNumOddOrEven_PositiveNum.executor": "Run",
@@ -132,11 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToSentenceCaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LumaTopJacketsTest.testLumaTopJacketsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ToSentenceCaseTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="LumaTopJacketsTest" />
+      <option name="METHOD_NAME" value="testLumaTopJacketsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -181,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LumaTopJacketsTest" />
+        <item itemvalue="TestNG.LumaTopJacketsTest.testLumaTopJacketsTest" />
         <item itemvalue="TestNG.Web99BottlesTest" />
         <item itemvalue="TestNG.Web99BottlesTest.test99Bottles" />
         <item itemvalue="TestNG.ToSentenceCaseTest.testCapitalizeMyTitle" />
-        <item itemvalue="TestNG.ToSentenceCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00019" summary="To update class HW3 with tasks">
-      <option name="closed" value="true" />
-      <created>1712445720080</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1712445720080</updated>
     </task>
     <task id="LOCAL-00020" summary="To update class HW4 with tasks for Part 1">
       <option name="closed" value="true" />
@@ -589,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719275688452</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Start working on LumaTopJacketsTest">
+      <option name="closed" value="true" />
+      <created>1719451417185</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719451417186</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add code from lesson 6" />
     <MESSAGE value="Update pom.xml with the Selenium dependency" />
     <MESSAGE value="Write the first auto test" />
     <MESSAGE value="Update the first Selenium auto test" />
@@ -630,7 +631,8 @@
     <MESSAGE value="Add code to Lesson1" />
     <MESSAGE value="Update Web99BottlesTest" />
     <MESSAGE value="Update Web99BottlesTest and pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Web99BottlesTest and pom.xml" />
+    <MESSAGE value="Start working on LumaTopJacketsTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start working on LumaTopJacketsTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
