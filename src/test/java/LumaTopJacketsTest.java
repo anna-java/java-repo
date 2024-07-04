@@ -12,6 +12,7 @@ public class LumaTopJacketsTest {
 
         //WebDriver driver = new EdgeDriver();
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
 
         driver.get("https://magento.softwaretestingboard.com/");
         Thread.sleep(2000);
@@ -20,7 +21,6 @@ public class LumaTopJacketsTest {
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("//span[text()='Women']/ancestor::li//span[text()='Tops']/preceding-sibling::span"));
-
-
+        Thread.sleep(2000);
     }
 }
