@@ -10,7 +10,7 @@ public class FallRefresh {
 
 
         System.out.println("Task #1_2:");
-        System.out.println("____888888______________________________\n" +
+        System.out.print("____888888______________________________\n" +
                 "____888888______________________________\n" +
                 "___8888888888___________________________\n" +
                 "__888888888888__________________________\n" +
@@ -45,7 +45,7 @@ public class FallRefresh {
 
 
         System.out.println("Task #1_3");
-        System.out.println("( > ^ . ^ < )\n" +
+        System.out.print("( > ^ . ^ < )\n" +
                 "\t\t\t\tC( - ___ - C )\n" +
                 "( 0 _._ 0 )");
         System.out.println();
