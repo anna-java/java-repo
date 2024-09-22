@@ -45,7 +45,7 @@ public class FallRefresh {
 
 
         System.out.println("Task #1_3");
-        System.out.println("( > ^ . ^ < ) \n" +
+        System.out.println("( > ^ . ^ < )\n" +
                 "\t\t\t\tC( - ___ - C )\n" +
                 "( 0 _._ 0 )");
         System.out.println();
