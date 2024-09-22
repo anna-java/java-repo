@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update LumaTopJacketsTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lessons/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Create FallRefresh.java class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,22 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Update class HW5 with tasks for th Part 2">
-      <option name="closed" value="true" />
-      <created>1712878684261</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1712878684261</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Update class HW5 with tasks for th Part 3">
-      <option name="closed" value="true" />
-      <created>1712949089385</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1712949089385</updated>
     </task>
     <task id="LOCAL-00025" summary="Update HW6 class with tasks for the Part 1">
       <option name="closed" value="true" />
@@ -595,7 +575,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723592572312</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Create FallRefresh.java class">
+      <option name="closed" value="true" />
+      <created>1727019576047</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1727019576048</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Create FallRefresh.java class">
+      <option name="closed" value="true" />
+      <created>1727019603154</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1727019603154</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Write the first auto test" />
     <MESSAGE value="Update the first Selenium auto test" />
     <MESSAGE value="Fix stringToLettersAndSpaces method to contain spaces" />
     <MESSAGE value="Write stringToNumbersAndSpaces method using regex" />
@@ -636,7 +631,8 @@
     <MESSAGE value="Update Web99BottlesTest and pom.xml" />
     <MESSAGE value="Start working on LumaTopJacketsTest" />
     <MESSAGE value="Update LumaTopJacketsTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update LumaTopJacketsTest" />
+    <MESSAGE value="Create FallRefresh.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create FallRefresh.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
