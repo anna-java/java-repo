@@ -5,12 +5,11 @@ public class FallRefresh {
     public static void main(String[] args) {
 
         System.out.println("Task #1_1:");
-        System.out.println("3\n2\n1\nGo!");
-        System.out.println();
+        System.out.println("3\n" + "2\n" + "1\n" + "Go!\n");
 
 
         System.out.println("Task #1_2:");
-        System.out.print("____888888______________________________\n" +
+        System.out.println("____888888______________________________\n" +
                 "____888888______________________________\n" +
                 "___8888888888___________________________\n" +
                 "__888888888888__________________________\n" +
@@ -41,14 +40,15 @@ public class FallRefresh {
                 "____88888888_____1___88888888___________\n" +
                 "_____888888___________888888____________\n" +
                 "_______________________8888_____________\n");
-        System.out.println();
 
 
         System.out.println("Task #1_3");
-        System.out.print("( > ^ . ^ < )\n" +
+        System.out.println("( > ^ . ^ < )\n" +
                 "\t\t\t\tC( - ___ - C )\n" +
-                "( 0 _._ 0 )");
-        System.out.println();
+                "( 0 _._ 0 )\n");
+
+
+        System.out.println("\uD83D\uDE00");
 
 
     }
