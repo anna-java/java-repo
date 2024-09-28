@@ -45,10 +45,39 @@ public class FallRefresh {
         System.out.println("Task #1_3");
         System.out.println("( > ^ . ^ < )\n" +
                 "\t\t\t\tC( - ___ - C )\n" +
-                "( 0 _._ 0 )\n");
+                "( 0 _._ 0 )");
+
+        System.out.println("\uD83D\uDE00\n");
 
 
-        System.out.println("\uD83D\uDE00");
+        System.out.println("Task #2_1");
+
+        int a = 17;
+        int b = 10;
+
+        int addition = a + b;
+        int subtraction = a - b;
+        int multiplication = a * b;
+        int division = a / b;
+        int remainder = a % b;
+        int odd = a % 2;
+        int even = b % 2;
+
+        System.out.println(STR."""
+                        addition: \{addition}
+                        subtraction: \{subtraction}
+                        multiplication: \{multiplication}
+                        division: \{division}
+                        remainder: \{remainder}
+                        a is an odd number, because the remainder is \{odd}
+                        b is an even number, becasue the remainder is \{even}
+                        """);
+
+
+
+
+
+
 
 
     }
