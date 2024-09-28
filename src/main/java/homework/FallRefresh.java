@@ -5,10 +5,20 @@ public class FallRefresh {
     public static void main(String[] args) {
 
         System.out.println("Task #1_1:");
+        /*
+        Написать программу, которая будет печатать/выводить следующий текст:
+        3
+        2
+        1
+        Поехали!!!
+         */
+
         System.out.println("3\n" + "2\n" + "1\n" + "Go!\n");
 
 
         System.out.println("Task #1_2:");
+        // Написать программу, которая будет печатать/выводить следующий текст:
+
         System.out.println("____888888______________________________\n" +
                 "____888888______________________________\n" +
                 "___8888888888___________________________\n" +
@@ -42,15 +52,22 @@ public class FallRefresh {
                 "_______________________8888_____________\n");
 
 
-        System.out.println("Task #1_3");
+        System.out.println("Task #1_3:");
+        // Вывести/напечатать смайлик (не :), а настоящий смайлик одним символом)
+
         System.out.println("( > ^ . ^ < )\n" +
                 "\t\t\t\tC( - ___ - C )\n" +
                 "( 0 _._ 0 )");
-
         System.out.println("\uD83D\uDE00\n");
 
 
-        System.out.println("Task #2_1");
+        System.out.println("Task #2_1:");
+        /*
+        Необходимо создать целочисленные переменные a и b, присвоить произвольные значения переменным
+        на ваш выбор и вывести результаты следующих операций с этими переменными:
+        сложение, умножение, вычитание, деление и остаток от деления.
+        Также сделать проверку на четность этих переменных и вывести результат.
+         */
 
         int a = 17;
         int b = 10;
@@ -73,11 +90,40 @@ public class FallRefresh {
                         b is an even number, becasue the remainder is \{even}
                         """);
 
+        System.out.println("Task #2_2:");
+        /*
+        Создать программу дележа добычи на пиратском корабле.
+        По обычаю, половина добычи идет владельцу корабля, половина оставшегося — капитану,
+        остальное делится поровну между всеми членами команды, включая капитана.
 
+        Размер добычи (например, в пиастрах) и количество пиратов на корабле задать переменными.
 
+        Вывести на экран кому сколько пиастров полагается.
+        Сколько получит капитан (Джек Воробей, естественно), если он утверждает, что корабль принадлежит ему?
 
+        Дополнительное задание со звездочкой:
+        Попробовать придумать как программа может проверить правильность дележа.
+         */
 
+        double trophy = 20000.0;
+        int pirates = 11;
+        // pirates quantity includes the shipowner and the captain
 
+        double ownerShare = trophy / 2;
+        double captainShare = (trophy - ownerShare) / 2;
+        int crew = pirates - 1;
+        // crew includes the captain, but not the shipowner
+        double crewShare = (trophy - ownerShare - captainShare) / crew;
+
+        System.out.println("Shipowner gets $" + ownerShare + "\n" +
+                "Ship captain gets $" + captainShare + "\n" +
+                "Each crew member gets $" + crewShare);
+
+        double shipOwnerIsAlsoTheCaptain = ownerShare + captainShare;
+        System.out.println("If the shipowner is also the captain, then his share will be $" + shipOwnerIsAlsoTheCaptain);
+
+        double shareCheck = ownerShare + captainShare + (crewShare * crew);
+        System.out.println("Pirates check if shares were calculated correctly: " + (shareCheck == trophy));
 
 
     }
