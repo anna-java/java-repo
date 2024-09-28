@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add Task 2_1 to FallRefresh.java class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update formatting in FallRefresh.java class">
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Fix commenting in Lesson10">
-      <option name="closed" value="true" />
-      <created>1713635772751</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1713635772751</updated>
     </task>
     <task id="LOCAL-00031" summary="Update Readme file">
       <option name="closed" value="true" />
@@ -594,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727541791380</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Add Task 2_2 to FallRefresh.java class">
+      <option name="closed" value="true" />
+      <created>1727544318506</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1727544318506</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,8 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Write checkIfANaturalNumber method using regex" />
-    <MESSAGE value="Write manipulationsWithString method" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Add code to Lesson5Part1" />
     <MESSAGE value="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version" />
@@ -635,7 +632,9 @@
     <MESSAGE value="Update FallRefresh.java class" />
     <MESSAGE value="Update FallRefresh.java class with  emoji" />
     <MESSAGE value="Add Task 2_1 to FallRefresh.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task 2_1 to FallRefresh.java class" />
+    <MESSAGE value="Add Task 2_2 to FallRefresh.java class" />
+    <MESSAGE value="Update formatting in FallRefresh.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update formatting in FallRefresh.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
