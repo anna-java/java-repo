@@ -120,16 +120,18 @@ public class FallRefresh {
         int crew = pirates - 1;
         // crew includes the captain, but not the shipowner
         double crewShare = (trophy - ownerShare - captainShare) / crew;
+        double captainShareUpdated = captainShare + crewShare;
 
         System.out.println(STR."""
                             Shipowner gets $\{ownerShare}
-                            Ship captain gets $\{captainShare}
+                            Ship captain gets $\{captainShareUpdated}
                             Each crew member gets $\{crewShare}""");
 
-        double shipOwnerIsAlsoTheCaptain = ownerShare + captainShare;
+        double shipOwnerIsAlsoTheCaptain = ownerShare + captainShareUpdated;
         System.out.println(STR."If the shipowner is also the captain, then his share will be $\{shipOwnerIsAlsoTheCaptain}");
 
-        double shareCheck = ownerShare + captainShare + crewShare * crew;
+        double shareCheck = ownerShare + captainShareUpdated + crewShare * (crew - 1);
+        // crew - 1 is the crew without the captain because we've already calculated captainShareUpdated
         boolean check = (shareCheck == trophy);
         System.out.println(STR."Pirates check if all shares were calculated correctly: \{check}");
 
