@@ -144,7 +144,7 @@ public class FallRefresh {
         a < b - если переменная a меньше b
         a > b - если переменная b меньше a
          */
-        a = 17;
+        a = 18;
         b = 36;
 
         if (a == b) {
@@ -154,6 +154,10 @@ public class FallRefresh {
         } else {
             System.out.println("a is greater than b");
         }
+
+
+
+
 
 
     }

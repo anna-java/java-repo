@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Task #2_2 in FallRefresh.java class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add Task #3_1 to FallRefresh.java class">
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Update Readme file with Hello Java pattern again">
-      <option name="closed" value="true" />
-      <created>1714941598267</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1714941598267</updated>
     </task>
     <task id="LOCAL-00034" summary="Add BubbleSort algorithm with boolean and while">
       <option name="closed" value="true" />
@@ -594,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727628412354</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Add Task #3_1 to FallRefresh.java class">
+      <option name="closed" value="true" />
+      <created>1728093173327</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1728093173327</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +609,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add code to Lesson5Part1" />
     <MESSAGE value="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version" />
     <MESSAGE value="Update ToSentenceCase first test" />
     <MESSAGE value="Add code to Lesson5Part2" />
@@ -635,7 +633,8 @@
     <MESSAGE value="Add Task 2_2 to FallRefresh.java class" />
     <MESSAGE value="Update formatting in FallRefresh.java class" />
     <MESSAGE value="Update Task #2_2 in FallRefresh.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Task #2_2 in FallRefresh.java class" />
+    <MESSAGE value="Add Task #3_1 to FallRefresh.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task #3_1 to FallRefresh.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
