@@ -234,8 +234,5 @@ public class FallRefresh {
 
 
 
-
-
-
     }
 }
