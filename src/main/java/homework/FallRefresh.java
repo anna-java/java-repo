@@ -212,5 +212,16 @@ public class FallRefresh {
         }
 
 
+        System.out.println();
+        System.out.println("Task #3_4:");
+        /*
+        Необходимо вывести числа от 0 до 15
+         */
+        for (int i = 0; i < 14 + 1; i++) {
+            //System.out.println("i = " + i);
+            System.out.print(i + " ");
+        }
+
+
     }
 }
