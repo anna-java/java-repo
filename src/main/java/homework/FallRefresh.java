@@ -67,8 +67,7 @@ public class FallRefresh {
         System.out.println("\uD83D\uDE00");
 
 
-        System.out.println();
-        System.out.println("Task #2_1:");
+        System.out.println("\nTask #2_1:");
         /*
         Необходимо создать целочисленные переменные a и b, присвоить произвольные значения переменным
         на ваш выбор и вывести результаты следующих операций с этими переменными:
@@ -137,8 +136,7 @@ public class FallRefresh {
         System.out.println(STR."Pirates check if all shares were calculated correctly: \{check}");
 
 
-        System.out.println();
-        System.out.println("Task #3_1:");
+        System.out.println("\nTask #3_1:");
         /*
         Необходимо создать две целочисленные переменные (a, b),
         присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:
@@ -158,8 +156,7 @@ public class FallRefresh {
         }
 
 
-        System.out.println();
-        System.out.println("Task #3_2:");
+        System.out.println("\nTask #3_2:");
         /*
         Необходимо создать две целочисленные переменные (a, b),
         присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:
@@ -176,8 +173,7 @@ public class FallRefresh {
         }
 
 
-        System.out.println();
-        System.out.println("Task #3_3:");
+        System.out.println("\nTask #3_3:");
         /*
         Необходимо создать целочисленную переменную, присвоить произвольное значение переменной на ваш выбор
         и вывести следующие строки:
@@ -212,15 +208,33 @@ public class FallRefresh {
         }
 
 
-        System.out.println();
-        System.out.println("Task #3_4:");
+        System.out.println("\nTask #3_4:");
         /*
         Необходимо вывести числа от 0 до 15
          */
-        for (int i = 0; i < 14 + 1; i++) {
+        for (int i = 0; i < 15; i++) {
             //System.out.println("i = " + i);
             System.out.print(i + " ");
         }
+
+
+        System.out.println("\n");
+        System.out.println("Task #3_5:");
+        /*
+        Необходимо вывести все положительные степени числа 5 которые меньше 10000,
+        вывести результат возведения в степень.
+         */
+        for (int i = 1; i < 10; i++) {
+            int result = (int) Math.pow(5, i);
+
+            if (result < 10000) {
+                System.out.println("5^" + i + " = " + result);
+            }
+        }
+
+
+
+
 
 
     }
