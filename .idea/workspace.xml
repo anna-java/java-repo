@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update formatting in FallRefresh.java class">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Task #2_2 in FallRefresh.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
     </list>
@@ -54,74 +54,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort_BooleanAndWhileLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort_NestedForLoops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort_WhileAndForLoops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FallRefresh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzzIfElse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzzNew.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HW7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Helpers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson3Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson3Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson4Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.USweather.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.FirstAutoTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FirstSeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartEqualsEnd_HappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartGreaterThanEnd_Negative.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartLessThanEnd_HappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FizzBuzzTest.testStartLessThanEnd_StartEndAreNegative_HappyPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LumaTopJacketsTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LumaTopJacketsTest.testLumaTopJacketsTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.testNumOddOrEven_NegativeNum.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.testNumOddOrEven_PositiveNum.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OddEvenTest.testNumOddOrEven_Zero.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ToSentenceCaseTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ToSentenceCaseTest.testCapitalizeMyTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Web99BottlesTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Web99BottlesTest.test99Bottles.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/anna/Documents/Programming/IdeaProjects/java-repo/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anna/IdeaProjects/Java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BubbleSort.executor": "Run",
+    "Application.BubbleSort2.executor": "Run",
+    "Application.BubbleSort_BooleanAndWhileLoop.executor": "Run",
+    "Application.BubbleSort_NestedForLoops.executor": "Run",
+    "Application.BubbleSort_WhileAndForLoops.executor": "Run",
+    "Application.FallRefresh.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.FizzBuzzIfElse.executor": "Run",
+    "Application.FizzBuzzNew.executor": "Run",
+    "Application.HW1.executor": "Run",
+    "Application.HW10.executor": "Run",
+    "Application.HW2.executor": "Run",
+    "Application.HW3.executor": "Run",
+    "Application.HW4.executor": "Run",
+    "Application.HW7.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.Helpers.executor": "Run",
+    "Application.Lesson10.executor": "Run",
+    "Application.Lesson2.executor": "Run",
+    "Application.Lesson3Part1.executor": "Run",
+    "Application.Lesson3Part2.executor": "Run",
+    "Application.Lesson4Part2.executor": "Run",
+    "Application.Lesson7.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.Teacher.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.USweather.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.FirstAutoTest.executor": "Run",
+    "TestNG.FirstSeleniumTest.executor": "Run",
+    "TestNG.FizzBuzzTest.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartEqualsEnd_HappyPath.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartGreaterThanEnd_Negative.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartLessThanEnd_HappyPath.executor": "Run",
+    "TestNG.FizzBuzzTest.testStartLessThanEnd_StartEndAreNegative_HappyPath.executor": "Run",
+    "TestNG.LumaTopJacketsTest.executor": "Run",
+    "TestNG.LumaTopJacketsTest.testLumaTopJacketsTest.executor": "Run",
+    "TestNG.OddEvenTest.executor": "Run",
+    "TestNG.OddEvenTest.testNumOddOrEven_NegativeNum.executor": "Run",
+    "TestNG.OddEvenTest.testNumOddOrEven_PositiveNum.executor": "Run",
+    "TestNG.OddEvenTest.testNumOddOrEven_Zero.executor": "Run",
+    "TestNG.ToSentenceCaseTest.executor": "Run",
+    "TestNG.ToSentenceCaseTest.testCapitalizeMyTitle.executor": "Run",
+    "TestNG.Web99BottlesTest.executor": "Run",
+    "TestNG.Web99BottlesTest.test99Bottles.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/anna/Documents/Programming/IdeaProjects/java-repo/src/test/java",
+    "last_opened_file_path": "/home/anna/IdeaProjects/Java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.FallRefresh">
     <configuration name="FallRefresh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.FallRefresh" />
@@ -201,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Update Readme file with Hello Java pattern">
-      <option name="closed" value="true" />
-      <created>1714941417354</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1714941417354</updated>
     </task>
     <task id="LOCAL-00033" summary="Update Readme file with Hello Java pattern again">
       <option name="closed" value="true" />
@@ -594,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727544853555</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Update Task #2_2 in FallRefresh.java class">
+      <option name="closed" value="true" />
+      <created>1727628412353</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1727628412354</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +610,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update README.md" />
     <MESSAGE value="Add code to Lesson5Part1" />
     <MESSAGE value="Start writing ToSentenceCase methods and tests&#10;Update pom.xml with a newer Selenium version" />
     <MESSAGE value="Update ToSentenceCase first test" />
@@ -635,7 +634,8 @@
     <MESSAGE value="Add Task 2_1 to FallRefresh.java class" />
     <MESSAGE value="Add Task 2_2 to FallRefresh.java class" />
     <MESSAGE value="Update formatting in FallRefresh.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update formatting in FallRefresh.java class" />
+    <MESSAGE value="Update Task #2_2 in FallRefresh.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Task #2_2 in FallRefresh.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -664,6 +664,16 @@
           <line>19</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homework/FallRefresh.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homework/FallRefresh.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java</url>
           <line>13</line>
@@ -676,7 +686,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java</url>
           <line>71</line>
-          <properties class="FizzBuzzTest" method="testStartGreaterThanEnd_Negative">
+          <properties class="FizzBuzzTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

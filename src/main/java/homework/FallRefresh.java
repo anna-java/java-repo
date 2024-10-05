@@ -133,7 +133,27 @@ public class FallRefresh {
         double shareCheck = ownerShare + captainShareUpdated + crewShare * (crew - 1);
         // crew - 1 is the crew without the captain because we've already calculated captainShareUpdated
         boolean check = (shareCheck == trophy);
-        System.out.println(STR."Pirates check if all shares were calculated correctly: \{check}");
+        System.out.println(STR."Pirates check if all shares were calculated correctly: \{check}\n");
+
+
+        System.out.println("Task #3_1:");
+        /*
+        Необходимо создать две целочисленные переменные (a, b),
+        присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:
+        a == b - если переменные равны
+        a < b - если переменная a меньше b
+        a > b - если переменная b меньше a
+         */
+        a = 17;
+        b = 36;
+
+        if (a == b) {
+            System.out.println("a is equal to b");
+        } else if (a < b) {
+            System.out.println("a is less than b");
+        } else {
+            System.out.println("a is greater than b");
+        }
 
 
     }
