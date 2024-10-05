@@ -64,9 +64,10 @@ public class FallRefresh {
                 ( > ^ . ^ < )
                 \t\t\t\tC( - ___ - C )
                 ( 0 _._ 0 )""");
-        System.out.println("\uD83D\uDE00\n");
+        System.out.println("\uD83D\uDE00");
 
 
+        System.out.println();
         System.out.println("Task #2_1:");
         /*
         Необходимо создать целочисленные переменные a и b, присвоить произвольные значения переменным
@@ -133,9 +134,10 @@ public class FallRefresh {
         double shareCheck = ownerShare + captainShareUpdated + crewShare * (crew - 1);
         // crew - 1 is the crew without the captain because we've already calculated captainShareUpdated
         boolean check = (shareCheck == trophy);
-        System.out.println(STR."Pirates check if all shares were calculated correctly: \{check}\n");
+        System.out.println(STR."Pirates check if all shares were calculated correctly: \{check}");
 
 
+        System.out.println();
         System.out.println("Task #3_1:");
         /*
         Необходимо создать две целочисленные переменные (a, b),
@@ -156,8 +158,58 @@ public class FallRefresh {
         }
 
 
+        System.out.println();
+        System.out.println("Task #3_2:");
+        /*
+        Необходимо создать две целочисленные переменные (a, b),
+        присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:
+        maybe a and b are even - если сумма переменных четная
+        some variable is odd - если сумма переменных нечетная
+         */
+        a  = 19;
+        b = 22;
+
+        if ((a + b) % 2 == 0) {
+            System.out.println("Maybe a nad b are even");
+        } else {
+            System.out.println("Either a or b is odd");
+        }
 
 
+        System.out.println();
+        System.out.println("Task #3_3:");
+        /*
+        Необходимо создать целочисленную переменную, присвоить произвольное значение переменной на ваш выбор
+        и вывести следующие строки:
+        больше 10 - если переменная больше 10
+        меньше 100 - если переменная меньше 100
+        результат деления на 2 больше 20 - если это соответствует истине
+        значение переменной между 5 и 40 включительно - если это правда
+        значение переменной меньше 5 или больше 40 - если предыдущее условие ложное
+         */
+        int x = 40;
+
+        if (x > 10 && x < 100) {
+            System.out.println(x + " is greater than 10 and less than 100");
+        } else if (x > 10) {
+            System.out.println(x + " is greater than 10");
+        } else {
+            System.out.println(x + " is less than 100");
+        }
+
+        if (x / 2 == 20) {
+            System.out.println(x + " divided by 2 is equal to 20");
+        } else if (x / 2 > 20) {
+            System.out.println(x + " divided by 2 is greater than 20");
+        } else {
+            System.out.println(x + " divided by 2 is less than 20");
+        }
+
+        if ((x >= 5) && (x <= 40)) {
+            System.out.println(x + " is in the [5; 40] range");
+        } else {
+            System.out.println(x + " is not in the [5; 40] range");
+        }
 
 
     }
