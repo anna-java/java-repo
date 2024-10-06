@@ -218,8 +218,7 @@ public class FallRefresh {
         }
 
 
-        System.out.println("\n");
-        System.out.println("Task #3_5:");
+        System.out.println("\nTask #3_5:");
         /*
         Необходимо вывести все положительные степени числа 5 которые меньше 10000,
         вывести результат возведения в степень.
@@ -230,6 +229,25 @@ public class FallRefresh {
             if (result < 10000) {
                 System.out.println("5^" + i + " = " + result);
             }
+        }
+
+
+        System.out.println("\nTask #3_6:");
+        /*
+        Необходимо вывести все числа кратные 4 между числами 40 и 60 включительно.
+        Реализовать 2 варианта:
+        использовать конструкцию if для определения кратности (цикл с шагом 1, i = i + 1);
+        без использования конструкции if (шаг цикла на ваше усмотрение).
+         */
+        for (int i = 40; i < 61; i++) {
+            if (i % 4 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+        System.out.println();
+        for (int i = 40; i < 61; i += 4) {
+            System.out.println("i = " + i);
         }
 
 
