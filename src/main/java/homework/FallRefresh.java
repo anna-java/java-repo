@@ -193,15 +193,15 @@ public class FallRefresh {
             System.out.println(x + " is less than 100");
         }
 
-        if (x / 2 == 20) {
+        if (x / 2.0 == 20) {
             System.out.println(x + " divided by 2 is equal to 20");
-        } else if (x / 2 > 20) {
+        } else if (x / 2.0 > 20) {
             System.out.println(x + " divided by 2 is greater than 20");
         } else {
             System.out.println(x + " divided by 2 is less than 20");
         }
 
-        if ((x >= 5) && (x <= 40)) {
+        if (x >= 5 && x <= 40) {
             System.out.println(x + " is in the [5; 40] range");
         } else {
             System.out.println(x + " is not in the [5; 40] range");
@@ -212,23 +212,28 @@ public class FallRefresh {
         /*
         Необходимо вывести числа от 0 до 15
          */
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 16; i++) {
             //System.out.println("i = " + i);
             System.out.print(i + " ");
         }
 
 
-        System.out.println("\nTask #3_5:");
+        System.out.println("\n\nTask #3_5:");
         /*
         Необходимо вывести все положительные степени числа 5 которые меньше 10000,
         вывести результат возведения в степень.
          */
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < 10000; i++) {
             int result = (int) Math.pow(5, i);
 
             if (result < 10000) {
                 System.out.println("5^" + i + " = " + result);
             }
+        }
+
+        // variant #2
+        for (int i = 5; i < 10000; i *= 5) {
+            System.out.println("i = " + i);
         }
 
 
@@ -245,10 +250,12 @@ public class FallRefresh {
             }
         }
 
+        // variant #2
         System.out.println();
         for (int i = 40; i < 61; i += 4) {
             System.out.println("i = " + i);
         }
+
 
 
 
