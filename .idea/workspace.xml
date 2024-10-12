@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update task numbers in FallRefresh.java class">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add Part 1 tasks to HW7.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Fix stringToLettersAndSpaces method to contain spaces">
-      <option name="closed" value="true" />
-      <created>1716072699622</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1716072699622</updated>
     </task>
     <task id="LOCAL-00044" summary="Write stringToNumbersAndSpaces method using regex">
       <option name="closed" value="true" />
@@ -597,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728698447531</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Add Part 1 tasks to HW7.java class">
+      <option name="closed" value="true" />
+      <created>1728771053908</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1728771053909</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -613,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update ToSentenceCaseTest" />
     <MESSAGE value="Finish ToSentenceCaseTest" />
     <MESSAGE value="Add code to Lesson3Part1" />
     <MESSAGE value="Add code to Lesson3Part2" />
@@ -638,7 +635,8 @@
     <MESSAGE value="Update FallRefresh.java class" />
     <MESSAGE value="Add array tasks to FallRefresh.java class" />
     <MESSAGE value="Update task numbers in FallRefresh.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update task numbers in FallRefresh.java class" />
+    <MESSAGE value="Add Part 1 tasks to HW7.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Part 1 tasks to HW7.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
