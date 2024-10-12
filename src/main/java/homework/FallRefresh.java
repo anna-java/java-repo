@@ -269,12 +269,12 @@ public class FallRefresh {
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0) {
-                System.out.println(array[i]);
+                System.out.print(array[i] + " ");
             }
         }
 
 
-        System.out.println("\nTask #4_2:");
+        System.out.println("\n\nTask #4_2:");
         /*
         Дан массив:
         int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
@@ -284,12 +284,12 @@ public class FallRefresh {
 
         for (int i = 0; i < array2.length; i++) {
             if (array2[i] > 5) {
-                System.out.println(array2[i]);
+                System.out.print(array2[i] + " ");
             }
         }
 
 
-        System.out.println("\nTask #4_3:");
+        System.out.println("\n\nTask #4_3:");
         /*
         Дан массив:
         int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
@@ -311,6 +311,16 @@ public class FallRefresh {
         (т.е. чтобы получилось {10, 9, …, 2, 1}).
         Не НАПЕЧАТАТЬ в обратном порядке, а переставить элементы массива.
          */
+        int[] array4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] array4Reversed = new int[array4.length];
+
+        for (int i = array4Reversed.length - 1; i > -1; i--) {
+            array4Reversed[i] = array4[i];
+            System.out.print(array4Reversed[i] + " ");
+        }
+
+
+
 
 
 
