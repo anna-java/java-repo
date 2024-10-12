@@ -1,5 +1,7 @@
 package homework;
 
+import java.util.Arrays;
+
 public class FallRefresh {
 
     public static void main(String[] args) {
@@ -255,6 +257,50 @@ public class FallRefresh {
         for (int i = 40; i < 61; i += 4) {
             System.out.println("i = " + i);
         }
+
+
+        System.out.println("\nTask #4_1:");
+        /*
+        Дан массив:
+        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+        необходимо вывести все нечетные числа из массива.
+         */
+        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 != 0) {
+                System.out.println(array[i]);
+            }
+        }
+
+
+        System.out.println("\nTask #4_2:");
+        /*
+        Дан массив:
+        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+        необходимо вывести все значения массива больше 5.
+         */
+        int[] array2 = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+
+        for (int i = 0; i < array2.length; i++) {
+            if (array2[i] > 5) {
+                System.out.println(array2[i]);
+            }
+        }
+
+
+        System.out.println("\nTask #4_2:");
+        /*
+        Дан массив:
+        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+        необходимо увеличить все значения массива на 15.
+         */
+        int[] array3 = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+
+        for (int i = 0; i < array3.length; i++) {
+            array3[i] = array3[i] + 15;
+        }
+        System.out.println(Arrays.toString(array3));
 
 
 
