@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update FallRefresh.java class">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update task numbers in FallRefresh.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,22 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Write the first auto test">
-      <option name="closed" value="true" />
-      <created>1716049583657</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1716049583657</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Update the first Selenium auto test">
-      <option name="closed" value="true" />
-      <created>1716051236629</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1716051236629</updated>
     </task>
     <task id="LOCAL-00043" summary="Fix stringToLettersAndSpaces method to contain spaces">
       <option name="closed" value="true" />
@@ -595,7 +581,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728340316876</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Add array tasks to FallRefresh.java class">
+      <option name="closed" value="true" />
+      <created>1728698326960</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1728698326960</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Update task numbers in FallRefresh.java class">
+      <option name="closed" value="true" />
+      <created>1728698447531</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1728698447531</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,8 +613,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add code to Lesson4Part1" />
-    <MESSAGE value="Add code to Lesson4Part2" />
     <MESSAGE value="Update ToSentenceCaseTest" />
     <MESSAGE value="Finish ToSentenceCaseTest" />
     <MESSAGE value="Add code to Lesson3Part1" />
@@ -636,7 +636,9 @@
     <MESSAGE value="Add task #3_5 to FallRefresh.java class" />
     <MESSAGE value="Add task #3_6 to FallRefresh.java class" />
     <MESSAGE value="Update FallRefresh.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update FallRefresh.java class" />
+    <MESSAGE value="Add array tasks to FallRefresh.java class" />
+    <MESSAGE value="Update task numbers in FallRefresh.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update task numbers in FallRefresh.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
