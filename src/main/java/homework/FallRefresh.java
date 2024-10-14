@@ -2,6 +2,8 @@ package homework;
 
 import java.util.Arrays;
 
+import static com.google.common.primitives.Ints.reverse;
+
 public class FallRefresh {
 
     public static void main(String[] args) {
@@ -312,12 +314,19 @@ public class FallRefresh {
         Не НАПЕЧАТАТЬ в обратном порядке, а переставить элементы массива.
          */
         int[] array4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int[] array4Reversed = new int[array4.length];
+        int[] array4Reversed = array4;
 
         for (int i = array4Reversed.length - 1; i > -1; i--) {
             array4Reversed[i] = array4[i];
             System.out.print(array4Reversed[i] + " ");
         }
+        System.out.println();
+
+        // Variant #2
+        reverse(array4);
+        System.out.println(Arrays.toString(array4));
+
+
 
 
 

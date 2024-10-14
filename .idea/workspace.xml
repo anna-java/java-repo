@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add Part 1 tasks to HW7.java class">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add task #4_4 to Fallrefresh.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,22 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Write stringToNumbersAndSpaces method using regex">
-      <option name="closed" value="true" />
-      <created>1716146109857</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1716146109857</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Write stringNTimesAndCountLength using regex">
-      <option name="closed" value="true" />
-      <created>1716155123352</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1716155123352</updated>
     </task>
     <task id="LOCAL-00046" summary="Write checkIfANaturalNumber method using regex">
       <option name="closed" value="true" />
@@ -595,7 +580,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728771053909</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Add task #4_4 to Fallrefresh.java class">
+      <option name="closed" value="true" />
+      <created>1728774012142</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1728774012142</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Add task #4_4 to Fallrefresh.java class">
+      <option name="closed" value="true" />
+      <created>1728774023189</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1728774023189</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +612,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Finish ToSentenceCaseTest" />
     <MESSAGE value="Add code to Lesson3Part1" />
     <MESSAGE value="Add code to Lesson3Part2" />
     <MESSAGE value="Add code to Lesson2" />
@@ -636,7 +636,8 @@
     <MESSAGE value="Add array tasks to FallRefresh.java class" />
     <MESSAGE value="Update task numbers in FallRefresh.java class" />
     <MESSAGE value="Add Part 1 tasks to HW7.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Part 1 tasks to HW7.java class" />
+    <MESSAGE value="Add task #4_4 to Fallrefresh.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add task #4_4 to Fallrefresh.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
