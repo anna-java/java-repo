@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add task #4_4 to Fallrefresh.java class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW7.java" afterDir="false" />
-    </list>
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add Part 1 tasks to HW7.java class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Write checkIfANaturalNumber method using regex">
-      <option name="closed" value="true" />
-      <created>1716259993098</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1716259993098</updated>
     </task>
     <task id="LOCAL-00047" summary="Write manipulationsWithString method">
       <option name="closed" value="true" />
@@ -596,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728774023189</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Add Part 1 tasks to HW7.java class">
+      <option name="closed" value="true" />
+      <created>1728871990392</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1728871990392</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -635,9 +631,9 @@
     <MESSAGE value="Update FallRefresh.java class" />
     <MESSAGE value="Add array tasks to FallRefresh.java class" />
     <MESSAGE value="Update task numbers in FallRefresh.java class" />
-    <MESSAGE value="Add Part 1 tasks to HW7.java class" />
     <MESSAGE value="Add task #4_4 to Fallrefresh.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add task #4_4 to Fallrefresh.java class" />
+    <MESSAGE value="Add Part 1 tasks to HW7.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Part 1 tasks to HW7.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
