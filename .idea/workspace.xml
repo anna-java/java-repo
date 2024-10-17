@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add Part 2 tasks to HW7.java class" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add Part 3 tasks to HW7.java class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/HW7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/HW7.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1716488490670</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1716488490670</updated>
     </task>
     <task id="LOCAL-00049" summary="Update README.md">
       <option name="closed" value="true" />
@@ -592,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728957089240</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Add Part 3 tasks to HW7.java class">
+      <option name="closed" value="true" />
+      <created>1729042864876</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1729042864876</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,7 +612,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add code to Lesson3Part2" />
     <MESSAGE value="Add code to Lesson2" />
     <MESSAGE value="Add code to Lesson1" />
     <MESSAGE value="Update Web99BottlesTest" />
@@ -633,7 +636,8 @@
     <MESSAGE value="Add task #4_4 to Fallrefresh.java class" />
     <MESSAGE value="Add Part 1 tasks to HW7.java class" />
     <MESSAGE value="Add Part 2 tasks to HW7.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Part 2 tasks to HW7.java class" />
+    <MESSAGE value="Add Part 3 tasks to HW7.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Part 3 tasks to HW7.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

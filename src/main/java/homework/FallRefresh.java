@@ -300,7 +300,7 @@ public class FallRefresh {
         int[] array3 = {9, 2, 6, 4, 5, 12, 7, 8, 6};
 
         for (int i = 0; i < array3.length; i++) {
-            array3[i] = array3[i] + 15;
+            array3[i] += 15;
         }
         System.out.println(Arrays.toString(array3));
 
@@ -322,8 +322,24 @@ public class FallRefresh {
         }
         System.out.println();
 
+
         // Variant #2
         reverse(array4);
+        System.out.println(Arrays.toString(array4));
+
+
+        // Variant #3
+        array4 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        for (int index = 0; index < array4.length / 2; index++) {
+            int mirroredIndex = array4.length - index - 1;
+
+            System.out.println("Swapping elements " + index + " and " + mirroredIndex);
+
+            int temp = array4[index];
+            array4[index] = array4[mirroredIndex];
+            array4[mirroredIndex] = temp;
+        }
         System.out.println(Arrays.toString(array4));
 
 
