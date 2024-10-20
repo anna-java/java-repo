@@ -254,6 +254,7 @@ public class FallRefresh {
             }
         }
 
+
         // variant #2
         System.out.println();
         for (int i = 40; i < 61; i += 4) {
@@ -341,6 +342,30 @@ public class FallRefresh {
             array4[mirroredIndex] = temp;
         }
         System.out.println(Arrays.toString(array4));
+
+
+        System.out.println("\nTask #5_1:");
+        /*
+        Дан массив:
+        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+        необходимо вывести сумму всех значений массива.
+         */
+        array = new int[]{9, 2, 6, 4, 5, 12, 7, 8, 6};
+
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        System.out.println(sum);
+
+
+        System.out.println("\nTask #5_1:");
+        /*
+        Дан массив:
+        int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
+        необходимо вывести максимальное значение массива.
+         */
+        int max = Integer.MIN_VALUE;
 
 
 
