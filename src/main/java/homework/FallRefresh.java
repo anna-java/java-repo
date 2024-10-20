@@ -391,6 +391,23 @@ public class FallRefresh {
         System.out.println(min);
 
 
+        System.out.println("\nTask #5_4:");
+        /*
+        Дан массив:
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        необходимо вывести среднее арифметическое всех значений массива.
+         */
+        array = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        sum = 0;
+        int sumAvg = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+            sumAvg = sum / array.length;
+        }
+        System.out.println(sumAvg);
+
+
 
 
 
