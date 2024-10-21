@@ -425,6 +425,14 @@ public class FallRefresh {
         System.out.println(sum);
 
 
+        System.out.println("\nTask #5_5:");
+        /*
+        Дан массив:
+        int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+        необходимо вывести максимальное значение массива.
+         */
+
+
 
 
     }
