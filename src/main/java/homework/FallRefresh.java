@@ -18,11 +18,11 @@ public class FallRefresh {
          */
 
         System.out.println("""
-                            3
-                            2
-                            1
-                            Go!
-                            """);
+                3
+                2
+                1
+                Go!
+                """);
 
 
         System.out.println("Task #1_2:");
@@ -167,7 +167,7 @@ public class FallRefresh {
         maybe a and b are even - если сумма переменных четная
         some variable is odd - если сумма переменных нечетная
          */
-        a  = 19;
+        a = 19;
         b = 22;
 
         if ((a + b) % 2 == 0) {
@@ -351,8 +351,8 @@ public class FallRefresh {
         необходимо вывести сумму всех значений массива.
          */
         array = new int[]{9, 2, 6, 4, 5, 12, 7, 8, 6};
-
         int sum = 0;
+
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
@@ -408,10 +408,21 @@ public class FallRefresh {
         System.out.println(sumAvg);
 
 
+        System.out.println("\nTask #5_5:");
+        /*
+        Дан массив:
+        int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+        необходимо вывести сумму элементов массива.
+         */
+        int[][] array4D = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+        sum = 0;
 
-
-
-
+        for (int i = 0; i < array4D.length; i++) {
+            for (int j = 0; j < array4D[i].length; j++) {
+                sum += array4D[i][j];
+            }
+        }
+        System.out.println(sum);
 
 
 
