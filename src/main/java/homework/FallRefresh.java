@@ -425,12 +425,26 @@ public class FallRefresh {
         System.out.println(sum);
 
 
-        System.out.println("\nTask #5_5:");
+        System.out.println("\nTask #5_6:");
         /*
         Дан массив:
         int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
         необходимо вывести максимальное значение массива.
          */
+        int[][] array2DMax = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+        max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < array2DMax.length; i++) {
+            for (int j = 0; j < array2DMax[i].length; j++) {
+                if (array2DMax[i][j] > max) {
+                    max = array2DMax[i][j];
+                }
+            }
+        }
+        System.out.println("Maximum array value is " + max);
+
+
+
 
 
 
