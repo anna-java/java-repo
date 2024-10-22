@@ -405,7 +405,7 @@ public class FallRefresh {
             sum += array[i];
             sumAvg = sum / array.length;
         }
-        System.out.println(sumAvg);
+        System.out.println("The average sum of all the elements in the array is " + sumAvg);
 
 
         System.out.println("\nTask #5_5:");
@@ -422,7 +422,7 @@ public class FallRefresh {
                 sum += array4D[i][j];
             }
         }
-        System.out.println(sum);
+        System.out.println("The sum of all the elements in the array is " + sum);
 
 
         System.out.println("\nTask #5_6:");
@@ -442,6 +442,21 @@ public class FallRefresh {
             }
         }
         System.out.println("Maximum array value is " + max);
+
+
+        System.out.println("\nTask #5_7:");
+        /*
+
+         */
+        int[][] array2DCount = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+        int count = 0;
+
+        for (int i = 0; i < array2DCount.length; i++) {
+            for (int j = 0; j < array2DCount[i].length; j++) {
+                count++;
+            }
+        }
+        System.out.println("The number of elements in the array is " + count);
 
 
 
