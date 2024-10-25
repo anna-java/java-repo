@@ -368,7 +368,7 @@ public class FallRefresh {
         int max = Integer.MIN_VALUE;
 
         for (int i = 0; i < array.length; i++) {
-            if (array[i] > max) {
+            if (max < array[i]) {
                 max = array[i];
             }
         }
@@ -384,7 +384,7 @@ public class FallRefresh {
         int min = Integer.MAX_VALUE;
 
         for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
+            if (min > array[i]) {
                 min = array[i];
             }
         }
@@ -399,11 +399,11 @@ public class FallRefresh {
          */
         array = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
         sum = 0;
-        int sumAvg = 0;
+        double sumAvg = 0;
 
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
-            sumAvg = sum / array.length;
+            sumAvg = (double) sum / array.length;
         }
         System.out.println("The average sum of all the elements in the array is " + sumAvg);
 
@@ -414,12 +414,12 @@ public class FallRefresh {
         int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
         необходимо вывести сумму элементов массива.
          */
-        int[][] array4D = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+        int[][] array2D = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
         sum = 0;
 
-        for (int i = 0; i < array4D.length; i++) {
-            for (int j = 0; j < array4D[i].length; j++) {
-                sum += array4D[i][j];
+        for (int i = 0; i < array2D.length; i++) {
+            for (int j = 0; j < array2D[i].length; j++) {
+                sum += array2D[i][j];
             }
         }
         System.out.println("The sum of all the elements in the array is " + sum);
@@ -436,7 +436,7 @@ public class FallRefresh {
 
         for (int i = 0; i < array2DMax.length; i++) {
             for (int j = 0; j < array2DMax[i].length; j++) {
-                if (array2DMax[i][j] > max) {
+                if (max < array2DMax[i][j]) {
                     max = array2DMax[i][j];
                 }
             }
@@ -446,34 +446,45 @@ public class FallRefresh {
 
         System.out.println("\nTask #5_7:");
         /*
-
+        Дан массив:
+        int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
+        необходимо вывести количество элементов в массиве.
          */
         int[][] array2DCount = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
         int count = 0;
 
+//        for (int i = 0; i < array2DCount.length; i++) {
+//            for (int j = 0; j < array2DCount[i].length; j++) {
+//                count++;
+//            }
+//        }
+//        System.out.println("The number of elements in the array is " + count);
+
+        //  Variant #2 without using nested loops
         for (int i = 0; i < array2DCount.length; i++) {
-            for (int j = 0; j < array2DCount[i].length; j++) {
-                count++;
-            }
+            count += array2DCount[i].length;
         }
         System.out.println("The number of elements in the array is " + count);
 
 
         System.out.println("\nTask #5_8:");
-        /*
-        Дана строка:
-        String s = “Перестановочный алгоритм быстрого действия”;
-        необходимо вывести все буквы “о” из этой строки.
-        Для указанной строки ответ будет "ооооо" (или в столбик)
-        */
-        String s = "Перестановочный алгоритм быстрого действия";
-        char letter = 'о';
+    /*
+    Дана строка:
+    String s = “Перестановочный алгоритм быстрого действия”;
+    необходимо вывести все буквы “о” из этой строки.
+    Для указанной строки ответ будет "ооооо" (или в столбик)
+    */
+    String s = "Перестановочный алгоритм быстрого действия";
+    char letter = 'о';
 
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == letter) {
-                System.out.print(s.charAt(i));
-            }
+        for(
+    int i = 0; i<s.length();i++)
+
+    {
+        if (s.charAt(i) == letter) {
+            System.out.print(s.charAt(i));
         }
+    }
 
 
         System.out.println("\n\nTask #5_9:");
@@ -483,19 +494,22 @@ public class FallRefresh {
         необходимо подсчитать количество букв “е” в строке.
         Для указанной строки ответ будет 4.
          */
-        s = "Перевыборы выбранного президента";
-        letter = 'е';
-        count = 0;
+    s ="Перевыборы выбранного президента";
+    letter ='е';
+    count =0;
 
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == letter) {
-                count++;
-            }
+        for(
+    int i = 0; i<s.length();i++)
+
+    {
+        if (s.charAt(i) == letter) {
+            count++;
         }
-        System.out.println("Letter \'" + letter + "\' was found in the string " + count + " times");
+    }
+        System.out.println("Letter \'"+letter +"\' was found in the string "+count +" times");
 
 
-        System.out.println("\n\nTask #5_10:");
+        System.out.println("\nTask #5_10:");
         /*
         Экстра задача №1
         Дана строка:
@@ -503,34 +517,31 @@ public class FallRefresh {
         необходимо вывести индексы начала всех подстрок - "рит", независимо от регистра.
         Для указанной строки ответ будет 6, 15, 29.
          */
-        s = "Посмотрите как Рите нравится ритм";
-        letter = 'р';
-        char followingLetter = 'и';
+    s ="Посмотрите как Рите нравится ритм";
+    letter ='р';
+    char followingLetter = 'и';
 
-        s = s.toLowerCase();
+    s =s.toLowerCase();
 
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == letter && s.charAt(i + 1) == followingLetter) {
-                System.out.println(i);
-            }
+        for(
+    int i = 0; i<s.length();i++)
+
+    {
+        if (s.charAt(i) == letter && s.charAt(i + 1) == followingLetter) {
+            System.out.print(i + " ");
         }
-
-
-
-
-
-/*
-Экстра задача №2
-Дан массив:
-String[][] array = {{“Привет”, “всем”, “кто”}, {“изучает”, “язык”, “программирования”}, {“java”}};
-необходимо подсчитать количество строк в массиве, которые не содержат буквы “е”.
-         */
-
-
-
-
-
-
-
     }
+
+
+        System.out.println("\n\nTask #5_11:");
+    /*
+    Экстра задача №2
+    Дан массив:
+    String[][] array = {{“Привет”, “всем”, “кто”}, {“изучает”, “язык”, “программирования”}, {“java”}};
+    необходимо подсчитать количество строк в массиве, которые не содержат буквы “е”.
+     */
+    String[][] arrayText = {{"Привет", "всем", "кто"}, {"изучает", "язык", "программирования"}, {"java"}};
+
+
+}
 }
