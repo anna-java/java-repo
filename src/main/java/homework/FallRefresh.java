@@ -474,17 +474,15 @@ public class FallRefresh {
     необходимо вывести все буквы “о” из этой строки.
     Для указанной строки ответ будет "ооооо" (или в столбик)
     */
-    String s = "Перестановочный алгоритм быстрого действия";
-    char letter = 'о';
+        String s = "Перестановочный алгоритм быстрого действия";
+        char letter = 'о';
 
-        for(
-    int i = 0; i<s.length();i++)
-
-    {
-        if (s.charAt(i) == letter) {
-            System.out.print(s.charAt(i));
+        for (
+                int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == letter) {
+                System.out.print(s.charAt(i));
+            }
         }
-    }
 
 
         System.out.println("\n\nTask #5_9:");
@@ -494,19 +492,17 @@ public class FallRefresh {
         необходимо подсчитать количество букв “е” в строке.
         Для указанной строки ответ будет 4.
          */
-    s ="Перевыборы выбранного президента";
-    letter ='е';
-    count =0;
+        s = "Перевыборы выбранного президента";
+        letter = 'е';
+        count = 0;
 
-        for(
-    int i = 0; i<s.length();i++)
-
-    {
-        if (s.charAt(i) == letter) {
-            count++;
+        for (
+                int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == letter) {
+                count++;
+            }
         }
-    }
-        System.out.println("Letter \'"+letter +"\' was found in the string "+count +" times");
+        System.out.println("Letter \'" + letter + "\' was found in the string " + count + " times");
 
 
         System.out.println("\nTask #5_10:");
@@ -517,31 +513,76 @@ public class FallRefresh {
         необходимо вывести индексы начала всех подстрок - "рит", независимо от регистра.
         Для указанной строки ответ будет 6, 15, 29.
          */
-    s ="Посмотрите как Рите нравится ритм";
-    letter ='р';
-    char followingLetter = 'и';
+        s = "Посмотрите как Рите нравится ритм";
+        letter = 'р';
+        char followingLetter = 'и';
 
-    s =s.toLowerCase();
+        s = s.toLowerCase();
 
-        for(
-    int i = 0; i<s.length();i++)
-
-    {
-        if (s.charAt(i) == letter && s.charAt(i + 1) == followingLetter) {
-            System.out.print(i + " ");
+        for (
+                int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == letter && s.charAt(i + 1) == followingLetter) {
+                System.out.print(i + " ");
+            }
         }
-    }
 
 
         System.out.println("\n\nTask #5_11:");
-    /*
-    Экстра задача №2
-    Дан массив:
-    String[][] array = {{“Привет”, “всем”, “кто”}, {“изучает”, “язык”, “программирования”}, {“java”}};
-    необходимо подсчитать количество строк в массиве, которые не содержат буквы “е”.
-     */
-    String[][] arrayText = {{"Привет", "всем", "кто"}, {"изучает", "язык", "программирования"}, {"java"}};
+        /*
+        Экстра задача №2
+        Дан массив:
+        String[][] array = {{“Привет”, “всем”, “кто”}, {“изучает”, “язык”, “программирования”}, {“java”}};
+        необходимо подсчитать количество строк в массиве, которые не содержат буквы “е”.
+         */
+        String[][] arrayText = {
+                {"Привет", "всем", "кто"},
+                {"изучает", "язык", "программирования"},
+                {"java"}
+        };
+        count = 0;
+
+//        for (int i = 0; i < arrayText.length; i++) {
+//            for (int j = 0; j < arrayText[i].length; j++) {
+//                if (array[i]) {
+//                    count++;
+//                }
+//            }
+//        }
+//        System.out.println(count);
 
 
-}
+        System.out.println("\nTask #5_12:");
+        /*
+        Вывести следующие строки с соответствующим форматированием (как пирамиды):
+        0  1  2  3  4  5  6  7  8  9
+        0  1  2  3  4  5  6  7  8
+        0  1  2  3  4  5  6  7
+        0  1  2  3  4  5  6
+        0  1  2  3  4  5
+        0  1  2  3  4
+        0  1  2  3
+        0  1  2
+        0  1
+        0
+         */
+        int rows = 10;
+
+        for (int i = 0; i < rows + 1; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+
+//            int rows = 5;
+//
+//            for(int i = 1; i <= rows; ++i) {
+//                for(int j = 1; j <= i; ++j) {
+//                    System.out.print(j + " ");
+//                }
+//                System.out.println();
+//            }
+
+
+    }
 }
