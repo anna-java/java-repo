@@ -543,7 +543,7 @@ public class FallRefresh {
 
 //        for (int i = 0; i < arrayText.length; i++) {
 //            for (int j = 0; j < arrayText[i].length; j++) {
-//                if (array[i]) {
+//                if (arrayText[i].charAt[j] == 'е') {
 //                    count++;
 //                }
 //            }
@@ -570,6 +570,30 @@ public class FallRefresh {
         for (int i = rows; i > -1; i--) {
             for (int j = 0; j < i; j++) {
                 System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+
+
+        System.out.println("Task #5_13:");
+        /*
+        0  1  2  3  4  5  6  7  8  9
+           0  1  2  3  4  5  6  7  8
+              0  1  2  3  4  5  6  7
+                 0  1  2  3  4  5  6
+                    0  1  2  3  4  5
+                       0  1  2  3  4
+                          0  1  2  3
+                             0  1  2
+                                0  1
+                                   0
+         */
+        for (int i = rows - 1; i > -1; i--) {
+            for (int j = rows; j > i; j--) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k < i + 1; k++) {
+                System.out.print(k);
             }
             System.out.println();
         }
