@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Added solution for task #5_13:">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
-    </list>
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add extra solutions for #5 tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Add code to Lesson2">
-      <option name="closed" value="true" />
-      <created>1717719738511</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1717719738512</updated>
     </task>
     <task id="LOCAL-00064" summary="Add code to Lesson1">
       <option name="closed" value="true" />
@@ -595,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730051168544</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Add extra solutions for #5 tasks">
+      <option name="closed" value="true" />
+      <created>1730161155934</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1730161155934</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add Task #3_1 to FallRefresh.java class" />
     <MESSAGE value="Add tasks #3_2 and #3_3 to FallRefresh.java class" />
     <MESSAGE value="Add tasks #3_4 to FallRefresh.java class" />
     <MESSAGE value="Add task #3_5 to FallRefresh.java class" />
@@ -636,7 +632,8 @@
     <MESSAGE value="Add partial solution for task #5_12:" />
     <MESSAGE value="Fixed solution for task #5_12:" />
     <MESSAGE value="Added solution for task #5_13:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solution for task #5_13:" />
+    <MESSAGE value="Add extra solutions for #5 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add extra solutions for #5 tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
