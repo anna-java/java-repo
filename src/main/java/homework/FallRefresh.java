@@ -453,34 +453,37 @@ public class FallRefresh {
         int[][] array2DCount = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
         int count = 0;
 
-//        for (int i = 0; i < array2DCount.length; i++) {
-//            for (int j = 0; j < array2DCount[i].length; j++) {
-//                count++;
-//            }
-//        }
-//        System.out.println("The number of elements in the array is " + count);
-
-        //  Variant #2 without using nested loops
         for (int i = 0; i < array2DCount.length; i++) {
-            count += array2DCount[i].length;
+            for (int j = 0; j < array2DCount[i].length; j++) {
+                count++;
+            }
         }
         System.out.println("The number of elements in the array is " + count);
 
 
+        //  Variant #2 without using nested loops
+        count = 0;
+
+        for (int i = 0; i < array2DCount.length; i++) {
+            count += array2DCount[i].length;
+        }
+        System.out.println("\nVariant #2:\nThe number of elements in the array is " + count);
+
+
         System.out.println("\nTask #5_8:");
-    /*
-    Дана строка:
-    String s = “Перестановочный алгоритм быстрого действия”;
-    необходимо вывести все буквы “о” из этой строки.
-    Для указанной строки ответ будет "ооооо" (или в столбик)
-    */
+        /*
+        Дана строка:
+        String s = “Перестановочный алгоритм быстрого действия”;
+        необходимо вывести все буквы “о” из этой строки.
+        Для указанной строки ответ будет "ооооо" (или в столбик)
+        */
         String s = "Перестановочный алгоритм быстрого действия";
         char letter = 'о';
 
         for (
                 int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == letter) {
-                System.out.print(s.charAt(i));
+                System.out.print(letter);
             }
         }
 
@@ -496,8 +499,7 @@ public class FallRefresh {
         letter = 'е';
         count = 0;
 
-        for (
-                int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == letter) {
                 count++;
             }
@@ -519,11 +521,33 @@ public class FallRefresh {
 
         s = s.toLowerCase();
 
-        for (
-                int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == letter && s.charAt(i + 1) == followingLetter) {
                 System.out.print(i + " ");
             }
+        }
+
+
+        // Variant #2
+        System.out.println("\n\nVariant #2:");
+
+        String subString = "рит";
+
+        for (int i = 0; i < s.length() - subString.length(); i++) {
+            if (subString.equalsIgnoreCase(s.substring(i, i + subString.length()))) {
+                System.out.print(i + " ");
+            }
+        }
+
+
+        // Variant #3
+        System.out.println("\n\nVariant #3:");
+
+        int index = s.indexOf(subString);
+
+        while (index != -1) {
+            System.out.print(index + " ");
+            index = s.indexOf(subString, index + 1);
         }
 
 
@@ -541,14 +565,27 @@ public class FallRefresh {
         };
         count = 0;
 
-//        for (int i = 0; i < arrayText.length; i++) {
-//            for (int j = 0; j < arrayText[i].length; j++) {
-//                if (arrayText[i].charAt[j] == 'е') {
-//                    count++;
-//                }
-//            }
-//        }
-//        System.out.println(count);
+        for (int i = 0; i < arrayText.length; i++) {
+            for (int j = 0; j < arrayText[i].length; j++) {
+                if (!arrayText[i][j].contains("е")) {
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
+
+
+        // Variant #2
+        count = 0;
+
+        for (int i = 0; i < arrayText.length; i++) {
+            for (int j = 0; j < arrayText[i].length; j++) {
+                if (arrayText[i][j].indexOf("е") == -1) {
+                    count++;
+                }
+            }
+        }
+        System.out.println("\nVariant #2:\n" + count);
 
 
         System.out.println("\nTask #5_12:");
