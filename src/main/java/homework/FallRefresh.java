@@ -612,7 +612,18 @@ public class FallRefresh {
         }
 
 
-        System.out.println("Task #5_13:");
+        // Variant #2
+        System.out.println("Variant #2:");
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10 - i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+
+
+        System.out.println("\nTask #5_13:");
         /*
         0  1  2  3  4  5  6  7  8  9
            0  1  2  3  4  5  6  7  8
