@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add #5_14 task">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add #5_12 variant #2 solution">
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Update Web99BottlesTest">
-      <option name="closed" value="true" />
-      <created>1718670907328</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1718670907328</updated>
     </task>
     <task id="LOCAL-00066" summary="Update Web99BottlesTest">
       <option name="closed" value="true" />
@@ -595,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730236176306</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Add #5_12 variant #2 solution">
+      <option name="closed" value="true" />
+      <created>1730332840559</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1730332840559</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +610,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add tasks #3_4 to FallRefresh.java class" />
     <MESSAGE value="Add task #3_5 to FallRefresh.java class" />
     <MESSAGE value="Add task #3_6 to FallRefresh.java class" />
     <MESSAGE value="Update FallRefresh.java class" />
@@ -636,7 +634,8 @@
     <MESSAGE value="Added solution for task #5_13:" />
     <MESSAGE value="Add extra solutions for #5 tasks" />
     <MESSAGE value="Add #5_14 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add #5_14 task" />
+    <MESSAGE value="Add #5_12 variant #2 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add #5_12 variant #2 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -664,16 +663,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/ToSentenceCaseTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/homework/FallRefresh.java</url>
-          <line>617</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/homework/FallRefresh.java</url>
-          <line>622</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java</url>
