@@ -43,7 +43,7 @@ public class EmployeeUtils {
 
         for (Employee employee : employees) {
             total += employee.getSalary();
-            }
+        }
         return total;
     }
 
@@ -72,12 +72,83 @@ public class EmployeeUtils {
         }
         double max = 0;
         for (int i = 1; i < employees.length; i++) {
-            if (employees[i].getSalary() < max) {
+            if (employees[i].getSalary() > max) {
                 max = employees[i].getSalary();
             }
         }
         return max;
     }
+
+
+    public static int minSubordinates(Manager[] managers) {
+
+        if (managers.length == 0) {
+            System.out.println("Can't find minimum if the array is empty");
+            return -1;
+        }
+        int min = managers[0].getNumberOfSubordinates();
+        for (Manager manager : managers) {
+            if (manager.getNumberOfSubordinates() < min) {
+                min = manager.getNumberOfSubordinates();
+            }
+        }
+        return min;
+    }
+
+
+    public static int maxSubordinates(Manager[] managers) {
+
+        if (managers.length == 0) {
+            System.out.println("Can't find maximum if the array is empty");
+            return -1;
+        }
+        int max = managers[0].getNumberOfSubordinates();
+        for (Manager manager : managers) {
+            if (manager.getNumberOfSubordinates() > max) {
+                max = manager.getNumberOfSubordinates();
+            }
+        }
+        return max;
+    }
+
+
+    public static double maxBonus(Manager[] managers) {
+
+        if (managers.length == 0) {
+            System.out.println("Can't find maximum if the array is empty");
+            return -1;
+        }
+        double maxBonus = managers[0].getBonus();
+        for (Manager manager : managers) {
+            double bonus = manager.getBonus();
+            if (bonus > maxBonus) {
+                maxBonus = bonus;
+            }
+        }
+        return maxBonus;
+    }
+
+
+    public static double minBonus(Manager[] managers) {
+
+        if (managers.length == 0) {
+            System.out.println("Can't find minimum if the array is empty");
+            return -1;
+        }
+        double minBonus = getBonus(managers[0]);
+        for (Manager manager : managers) {
+            double bonus = getBonus(manager);
+            if (bonus > minBonus) {
+                minBonus = bonus;
+            }
+        }
+        return minBonus;
+    }
+
+    public static double getBonus(Manager manager) {
+        return manager.getSalary() - manager.getBaseSalary();
+    }
+}
 
 
 

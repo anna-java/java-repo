@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Create Worker and Manager classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/EmployeeUtils.java" afterDir="false" />
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Update Worker and Manager classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/FallRefresh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/EmployeeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/EmployeeUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +125,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FallRefresh">
     <configuration name="FallRefresh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.FallRefresh" />
       <module name="Java" />
@@ -208,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Update LumaTopJacketsTest">
-      <option name="closed" value="true" />
-      <created>1720126389878</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1720126389879</updated>
     </task>
     <task id="LOCAL-00071" summary="Update LumaTopJacketsTest">
       <option name="closed" value="true" />
@@ -601,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731874704135</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Update Worker and Manager classes">
+      <option name="closed" value="true" />
+      <created>1732410883223</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1732410883224</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -617,7 +613,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update task numbers in FallRefresh.java class" />
     <MESSAGE value="Add task #4_4 to Fallrefresh.java class" />
     <MESSAGE value="Add Part 1 tasks to HW7.java class" />
     <MESSAGE value="Add Part 2 tasks to HW7.java class" />
@@ -642,7 +637,8 @@
     <MESSAGE value="Add #5_14 solution" />
     <MESSAGE value="Add tasks to HW6&#10;Create Employee class" />
     <MESSAGE value="Create Worker and Manager classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Worker and Manager classes" />
+    <MESSAGE value="Update Worker and Manager classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Worker and Manager classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
