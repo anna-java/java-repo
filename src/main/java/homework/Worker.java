@@ -18,7 +18,9 @@ package homework;
 
 public class Worker {
 
-    public int getSalary() {
-        return Employee.baseSalary;
+    double salary;
+
+    public double getSalary() {
+        return salary;
     }
 }

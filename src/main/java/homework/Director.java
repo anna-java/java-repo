@@ -1,20 +1,10 @@
-/*
-Задача №1
-
-Необходимо создать класс Employee со следующими методами:
-getBaseSalary - получить базовую ставку
-setBaseSalary
-getName - получить имя
-setName
-getSalary - получить зарплату
- */
-
 package homework;
 
-public class Employee {
+public class Director {
 
     double baseSalary;
     String name;
+    int numberOfSubordinates;
 
     public double getBaseSalary() {
         return baseSalary;
@@ -33,6 +23,6 @@ public class Employee {
     }
 
     public double getSalary() {
-        return getBaseSalary();
+        return getBaseSalary() * numberOfSubordinates / 100 * 9;
     }
 }
