@@ -17,4 +17,66 @@ package homework;
 
 public class EmployeeUtils {
 
+    public static Employee findByName(Employee[] employees, String name) {
+        for (Employee employee : employees) {
+            if (employee.getName().equals(name)) {
+                return employee;
+            }
+        }
+        return null;
+    }
+
+
+    public static Employee findBySubstring(Employee[] employees, String substring) {
+        for (Employee employee : employees) {
+            if (employee.getName().contains(substring)) {
+                return employee;
+            }
+        }
+        return null;
+    }
+
+
+    public static double countAllSalaries(Employee[] employees, String name) {
+
+        double total = 0;
+
+        for (Employee employee : employees) {
+            total += employee.getSalary();
+            }
+        return total;
+    }
+
+
+    public static double minSalary(Employee[] employees, String name) {
+
+        if (employees.length == 0) {
+            System.out.println("Can't find minimum if the array is empty");
+            return -1;
+        }
+        double min = employees[0].getSalary();
+        for (int i = 1; i < employees.length; i++) {
+            if (employees[i].getSalary() < min) {
+                min = employees[i].getSalary();
+            }
+        }
+        return min;
+    }
+
+
+    public static double maxSalary(Employee[] employees, String name) {
+
+        if (employees.length == 0) {
+            System.out.println("Can't find maximum if the array is empty");
+            return -1;
+        }
+        double max = 0;
+        for (int i = 1; i < employees.length; i++) {
+            if (employees[i].getSalary() < max) {
+                max = employees[i].getSalary();
+            }
+        }
+        return max;
+    }
+
 }
