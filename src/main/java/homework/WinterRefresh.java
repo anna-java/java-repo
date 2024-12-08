@@ -2,7 +2,8 @@ package homework;
 
 public class WinterRefresh {
 
-    /* Задача №1
+    /*
+Задача №1
 
 Необходимо написать 4 метода:
 сложение 2х чисел
@@ -10,6 +11,22 @@ public class WinterRefresh {
 умножение 2х чисел
 деление 2х чисел
 */
+
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+
+    public static int subtraction(int a, int b) {
+        return a - b;
+    }
+
+    public static int multiplication(int a, int b) {
+        return a * b;
+    }
+
+    public static double division(int a, int b) {
+        return 1.0 * a / b;
+    }
 
 
 /* Задачи №2
@@ -59,7 +76,14 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
     public static void main(String[] args) {
 
-        System.out.println("Task #8_1:");
+        System.out.println("Task #7_1:");
+        System.out.println(sum(3, 5));
+        System.out.println(subtraction(3, 5));
+        System.out.println(multiplication(3, 5));
+        System.out.println(division(29, 5));
+
+
+        System.out.println("\nTask #8_1:");
         convertToNum(new int[]{8, -3, 0});
 
     }

@@ -11,7 +11,7 @@ public class TaxPayment {
             System.out.println("No employees were found");
             return -1;
         }
-        double salary;
+        double salary = 0;
         if (salary <= 0) {
             System.out.println("Salary cannot be a negative number");
             return -1;
