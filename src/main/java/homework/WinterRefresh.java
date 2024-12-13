@@ -38,6 +38,19 @@ https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/java
 https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
      */
 
+    public static int doubleInteger(int i) {
+        i = i * 2;
+        return i;
+    }
+
+
+    public static boolean isLove(final int flower1, final int flower2) {
+        if ((flower1 % 2 == 0 && flower2 % 2 == 1) || (flower1 % 2 == 1 && flower2 % 2 == 0)) {
+            return true;
+        }
+        return false;
+    }
+
     /* Задача №1
 
 Написать статический метод, превращающий натуральное (целое положительное) число (например, 643) в строку,
@@ -81,6 +94,13 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
         System.out.println(subtraction(3, 5));
         System.out.println(multiplication(3, 5));
         System.out.println(division(29, 5));
+
+
+        System.out.println("\nTask #7_2:");
+        System.out.println(doubleInteger(5));
+
+        System.out.println(isLove(6, 5));
+        System.out.println(isLove(8, 8));
 
 
         System.out.println("\nTask #8_1:");
