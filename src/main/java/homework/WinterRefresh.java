@@ -12,7 +12,7 @@ public class WinterRefresh {
 деление 2х чисел
 */
 
-    public static int sum(int a, int b) {
+    public static int addition(int a, int b) {
         return a + b;
     }
 
@@ -39,19 +39,19 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
      */
 
     public static int doubleInteger(int i) {
-        i = i * 2;
-        return i;
+        return i * 2;
     }
 
 
     public static boolean isLove(final int flower1, final int flower2) {
-        return (flower1 % 2 == 0 && flower2 % 2 == 1) || (flower1 % 2 == 1 && flower2 % 2 == 0);
+        //return (flower1 % 2 == 0 && flower2 % 2 == 1) || (flower1 % 2 == 1 && flower2 % 2 == 0);
+        return (flower1 + flower2) % 2 == 1;
     }
 
 
     public static String numberToString(int num) {
-        String str = String.valueOf(num);
-        return str;
+        //return "" + num;
+        return String.valueOf(num);
     }
 
     /* Задача №1
@@ -93,7 +93,7 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
     public static void main(String[] args) {
 
         System.out.println("Task #7_1:");
-        System.out.println(sum(3, 5));
+        System.out.println(addition(3, 5));
         System.out.println(subtraction(3, 5));
         System.out.println(multiplication(3, 5));
         System.out.println(division(29, 5));

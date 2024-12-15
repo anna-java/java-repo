@@ -207,14 +207,6 @@
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
     </task>
-    <task id="LOCAL-00075" summary="Create and start working on FallRefresh.java class">
-      <option name="closed" value="true" />
-      <created>1727019746691</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1727019746691</updated>
-    </task>
     <task id="LOCAL-00076" summary="Update FallRefresh.java class">
       <option name="closed" value="true" />
       <created>1727020119198</created>
@@ -599,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734055171940</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Add task#7_2 solutions to WinterRefresh">
+      <option name="closed" value="true" />
+      <created>1734294950613</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1734294950614</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
