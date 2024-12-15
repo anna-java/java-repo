@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add tasks for #87 to WinterRefresh">
+    <list default="true" id="fb5e73f4-5664-4362-b69f-2aaedf20e90c" name="Changes" comment="Add task#7_2 solutions to WinterRefresh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/WinterRefresh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/WinterRefresh.java" afterDir="false" />
     </list>
@@ -206,14 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708996307679</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Create FallRefresh.java class">
-      <option name="closed" value="true" />
-      <created>1727019724040</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1727019724040</updated>
     </task>
     <task id="LOCAL-00075" summary="Create and start working on FallRefresh.java class">
       <option name="closed" value="true" />
@@ -599,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733701309843</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Add task#7_2 solutions to WinterRefresh">
+      <option name="closed" value="true" />
+      <created>1734055171940</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1734055171940</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,7 +615,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add Part 3 tasks to HW7.java class" />
     <MESSAGE value="Add solutions for the #4_4 task in FallRefresh class" />
     <MESSAGE value="Add #5_1 task to FallRefresh class" />
     <MESSAGE value="Add task #5_2 to FallRefresh class" />
@@ -640,7 +639,8 @@
     <MESSAGE value="Add new methods to EmployeeUtils" />
     <MESSAGE value="Add solution for #8_1 to WinterRefresh" />
     <MESSAGE value="Add tasks for #87 to WinterRefresh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tasks for #87 to WinterRefresh" />
+    <MESSAGE value="Add task#7_2 solutions to WinterRefresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add task#7_2 solutions to WinterRefresh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,7 +698,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/homework/WinterRefresh.java</url>
-          <line>89</line>
+          <line>92</line>
           <properties class="homework.WinterRefresh" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

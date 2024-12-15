@@ -45,10 +45,13 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
 
     public static boolean isLove(final int flower1, final int flower2) {
-        if ((flower1 % 2 == 0 && flower2 % 2 == 1) || (flower1 % 2 == 1 && flower2 % 2 == 0)) {
-            return true;
-        }
-        return false;
+        return (flower1 % 2 == 0 && flower2 % 2 == 1) || (flower1 % 2 == 1 && flower2 % 2 == 0);
+    }
+
+
+    public static String numberToString(int num) {
+        String str = String.valueOf(num);
+        return str;
     }
 
     /* Задача №1
@@ -101,6 +104,8 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
         System.out.println(isLove(6, 5));
         System.out.println(isLove(8, 8));
+
+        System.out.println(numberToString(123));
 
 
         System.out.println("\nTask #8_1:");
