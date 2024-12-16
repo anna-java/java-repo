@@ -1,5 +1,7 @@
 package homework;
 
+import java.util.Arrays;
+
 public class WinterRefresh {
 
     /*
@@ -54,6 +56,22 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
         return String.valueOf(num);
     }
 
+
+    public static int findSmallestInt(int[] args) {
+
+        int[] array = {};
+
+            int smallestInt = Integer.MAX_VALUE;
+
+            for (int i = 0; i < array.length; i++) {
+                if (array[i] < smallestInt) {
+                    array[i] = smallestInt;
+                }
+            }
+        return smallestInt;
+    }
+
+
     /* Задача №1
 
 Написать статический метод, превращающий натуральное (целое положительное) число (например, 643) в строку,
@@ -106,6 +124,8 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
         System.out.println(isLove(8, 8));
 
         System.out.println(numberToString(123));
+
+        //int[] array = new int[]{34, 15, 88, 2};
 
 
         System.out.println("\nTask #8_1:");
