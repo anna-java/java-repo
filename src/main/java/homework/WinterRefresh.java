@@ -59,13 +59,13 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
     public static int findSmallestInt(int[] args) {
 
-        int[] array = {};
+        args = new int[]{};
 
             int smallestInt = Integer.MAX_VALUE;
 
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] < smallestInt) {
-                    array[i] = smallestInt;
+            for (int i = 0; i < args.length; i++) {
+                if (args[i] < smallestInt) {
+                    args[i] = smallestInt;
                 }
             }
         return smallestInt;
@@ -125,7 +125,7 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
         System.out.println(numberToString(123));
 
-        //int[] array = new int[]{34, 15, 88, 2};
+        findSmallestInt(new int[]{34, 15, 88, 2});
 
 
         System.out.println("\nTask #8_1:");
