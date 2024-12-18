@@ -72,11 +72,26 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
     }
 
 
+    public static String countingSheep(int num) {
+
+        if (num <= 0) {
+            return "-1";
+        }
+        String string = " sheep. . .";
+
+        for (num = 1; num < 10; num++) {
+            System.out.print(num + string);
+        }
+        return "" + num + string;
+    }
+
+
     /* Задача №1
 
 Написать статический метод, превращающий натуральное (целое положительное) число (например, 643) в строку,
 состоящую из названий цифр этого числа (например, “шесть четыре три”).
 */
+
     public static void convertToNum(int[] array) {
 
         for (int i = 0; i < array.length; i++) {
@@ -126,6 +141,8 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
         System.out.println(numberToString(123));
 
         findSmallestInt(new int[]{34, 15, 88, 2});
+
+        System.out.println(countingSheep(5));
 
 
         System.out.println("\nTask #8_1:");
