@@ -71,6 +71,12 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
     }
 
 
+    // Variant #2
+    public static int findSmallestInt2(int[] arguments2) {
+        return Arrays.stream(arguments2).min().getAsInt();
+    }
+
+
     public static String countingSheep(int num) {
 
         if (num <= 0) {
@@ -141,6 +147,11 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
         int[] arguments = {34, 15, 88, 2};
         System.out.println(findSmallestInt(arguments));
+
+        int[] arguments2 = {34, 15, 88, 2};
+        System.out.println(findSmallestInt2(arguments2));
+
+
 
         System.out.println(countingSheep(5));
 
