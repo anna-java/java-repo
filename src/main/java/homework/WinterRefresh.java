@@ -57,15 +57,14 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
     }
 
 
-    public static int findSmallestInt(int[] args) {
+    public static int findSmallestInt(int[] arguments) {
 
-        args = new int[]{};
+        int smallestInt = Integer.MAX_VALUE;
+        //int smallestInt = arguments[0];
 
-            int smallestInt = Integer.MAX_VALUE;
-
-            for (int i = 0; i < args.length; i++) {
-                if (args[i] < smallestInt) {
-                    args[i] = smallestInt;
+            for (int i = 0; i < arguments.length; i++) {
+                if (arguments[i] < smallestInt) {
+                    smallestInt = arguments[i];
                 }
             }
         return smallestInt;
@@ -140,7 +139,8 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
         System.out.println(numberToString(123));
 
-        findSmallestInt(new int[]{34, 15, 88, 2});
+        int[] arguments = {34, 15, 88, 2};
+        System.out.println(findSmallestInt(arguments));
 
         System.out.println(countingSheep(5));
 
