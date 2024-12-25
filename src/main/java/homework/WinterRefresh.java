@@ -82,12 +82,13 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
         if (num <= 0) {
             return "-1";
         }
-        String string = " sheep. . .";
 
-        for (num = 1; num < 10; num++) {
-            System.out.print(num + string);
+        String string = "";
+
+        for (int i = 1; i <= num; i++) {
+            string += i + " sheep(s)...";
         }
-        return "" + num + string;
+        return string;
     }
 
 
