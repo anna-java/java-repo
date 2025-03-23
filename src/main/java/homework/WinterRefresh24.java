@@ -2,7 +2,7 @@ package homework;
 
 import java.util.Arrays;
 
-public class WinterRefresh {
+public class WinterRefresh24 {
 
     /*
 Задача №1
@@ -32,7 +32,6 @@ public class WinterRefresh {
 
 
 /* Задачи №2
-
 https://www.codewars.com/kata/53ee5429ba190077850011d4/train/java
 https://www.codewars.com/kata/555086d53eac039a2a000083/train/java
 https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/java
@@ -93,12 +92,12 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
 
     /* Задача №1
-
 Написать статический метод, превращающий натуральное (целое положительное) число (например, 643) в строку,
 состоящую из названий цифр этого числа (например, “шесть четыре три”).
 */
 
-    public static void convertToNum(int[] array) {
+    /*
+    public static void convertToString(int[] array) {
 
         for (int i = 0; i < array.length; i++) {
 
@@ -126,6 +125,25 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
                 System.out.print("nine ");
             }
         }
+    }
+     */
+
+
+    public static void convertToString(int number) {
+
+        String[] words = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+        char[] digitChars = String.valueOf(number).toCharArray(); //char[]
+
+        String result = "";
+        String space = "";
+
+        for (char digitChar: digitChars) {
+            int digitInt = Integer.parseInt(String.valueOf(digitChar));
+            String word = words[digitInt];
+            result += space + word;
+            space = " ";
+        }
+        System.out.println(result);
     }
 
 
@@ -158,7 +176,8 @@ https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/java
 
 
         System.out.println("\nTask #8_1:");
-        convertToNum(new int[]{8, -3, 0});
+        //convertToString(new int[]{8, -3, 0});
+        convertToString(4523);
 
     }
 }
