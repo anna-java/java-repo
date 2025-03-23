@@ -1,6 +1,6 @@
 package homework;
 
-public class Employee2 {
+public class Staff {
 
     String name;
     double salary;
